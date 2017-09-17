@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-"# jquery-crossword-puzzle-generator" 
-"# jquery-word-guess-game" 
-"# jquery-word-guess-game" 
-=======
 100% JQuery Crossword Puzzle Generator and Game
 
 Demo:
@@ -36,10 +31,14 @@ Fully supports internationalization.  Examples in twelve different languages :
 * Portuguese : https://www.earthfluent.com/portuguese/nouns-concepts-part-35/play.php?action=CrosswordPuzzle&previousquizzes=10
 * Russian : https://www.earthfluent.com/russian/nouns-concepts-part-35/play.php?action=CrosswordPuzzle&previousquizzes=10
 * Korean : https://www.earthfluent.com/korean/nouns-concepts-part-35/play.php?action=CrosswordPuzzle&previousquizzes=10
+<<<<<<< HEAD
 >>>>>>> 3a9f4ae6fa2e15eab0b071a5ffc26d2fe5aacf67
 "# jquery-word-guess-game" 
 "# jquery-word-guess-game" 
 "# jquery-word-guess-game" 
 "# jquery-word-guess-game" 
 "# jquery-word-guess-game" 
+"# convert-british-to-american-spellings" 
+=======
+>>>>>>> 8a4b68989dec6e98480d526aedcef43a7fbec6ed
 "# convert-british-to-american-spellings" 
