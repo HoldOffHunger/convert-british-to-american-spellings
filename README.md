@@ -42,3 +42,4 @@ Fully supports internationalization.  Examples in twelve different languages :
 =======
 >>>>>>> 8a4b68989dec6e98480d526aedcef43a7fbec6ed
 "# convert-british-to-american-spellings" 
+"# convert-british-to-american-spellings" 
