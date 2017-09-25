@@ -12,6 +12,13 @@
 			
 			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
 				$text = preg_replace('/\b' . $british_spelling . '\b/', $american_spelling, $text);
+				
+				$uppercased_american_spelling = ucwords($american_spelling);
+				if($uppercased_american_spelling != $american_spelling) {
+					$uppercased_british_spelling = ucwords($british_spelling);
+					
+					$text = preg_replace('/\b' . $uppercased_british_spelling . '\b/', $uppercased_american_spelling, $text);
+				}
 			}
 			
 			return $text;
@@ -23,6 +30,13 @@
 			
 			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
 				$text = preg_replace('/\b' . $american_spelling . '\b/', $british_spelling, $text);
+				
+				$uppercased_british_spelling = ucwords($british_spelling);
+				if($uppercased_british_spelling != $british_spelling) {
+					$uppercased_american_spelling = ucwords($american_spelling);
+					
+					$text = preg_replace('/\b' . $uppercased_american_spelling . '\b/', $uppercased_british_spelling, $text);
+				}
 			}
 			
 			return $text;
