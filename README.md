@@ -2,6 +2,8 @@
 
 Converts text so that British spellings are swapped with their Americanized form or vice versa.
 
+Features: 20,000 word alterations; multiple variants for British words ('unrealisable' and 'unrealiseable'); Atomicity, American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have opposite meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it).
+
 Sample usage:
 
     require('AmericanBritishSpellings.php');
