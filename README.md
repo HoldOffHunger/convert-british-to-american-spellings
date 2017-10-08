@@ -5,9 +5,10 @@ Converts text so that British spellings are swapped with their Americanized form
 ## Features:
 
 * 20,000 words covered;
-* Multiple Sources: Words come from VarCon (18,000 words) and WordsWorldWide (8,000 words), both lists were used to cross-check each other, correct errors, and remove duplicates.
+* Multiple Sources: Words come from VarCon/ISpell (18,000 words) and WordsWorldWide (8,000 words), both lists were used to cross-check each other, correct errors, and remove duplicates.
 * Variants for British words ('unrealisable' and 'unrealiseable');
 * Words are defined with simple associative array, making for a quick transfer to Perl, C++, Java, etc.;
+* Permissively licensed;
 
 ## Functionality:
 
