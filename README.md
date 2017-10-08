@@ -7,7 +7,7 @@ Features:
 * 20,000 word alterations;
 * Variants for British words ('unrealisable' and 'unrealiseable');
 * Words are defined with simple associative array, making for a quick transfer to Perl, C++, Java, etc.;
-* Atomic : American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have opposite meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it);
+* Atomic / Deterministic : American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have opposite meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it);
 
 Sample usage:
 
