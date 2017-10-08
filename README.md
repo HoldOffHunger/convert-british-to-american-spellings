@@ -8,7 +8,7 @@ Features:
 * Multiple Sources: Words come from varcon (18,000 words) and wordsworldwide (8,000 words), both lists were used to cross-check each other, correct errors, and remove duplicates.
 * Variants for British words ('unrealisable' and 'unrealiseable');
 * Words are defined with simple associative array, making for a quick transfer to Perl, C++, Java, etc.;
-* Atomic / Deterministic : American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have reverse meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it);
+* Atomic / Deterministic : American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have reverse meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it, so we don't do those types of swaps);
 
 Sample usage:
 
