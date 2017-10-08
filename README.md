@@ -2,7 +2,12 @@
 
 Converts text so that British spellings are swapped with their Americanized form or vice versa.
 
-Features: 20,000 word alterations; multiple variants for British words ('unrealisable' and 'unrealiseable'); Atomicity, American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have opposite meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it).
+Features:
+
+* 20,000 word alterations;
+* Variants for British words ('unrealisable' and 'unrealiseable');
+* Words are defined with simple associative array, making for a quick transfer to Perl, C++, Java, etc..
+* Atomicity, American-ize/British-ify will not corrupt meaning ('discus' and 'diskus' have opposite meanings in US/UK, swapping them in/out will cause the text to change each time you "Americanize" or "Britishify" it).
 
 Sample usage:
 
