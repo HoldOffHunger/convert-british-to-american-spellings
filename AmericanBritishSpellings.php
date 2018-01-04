@@ -44,6 +44,10 @@
 			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
 				$text = preg_replace('/\b' . $american_spelling . '\b/', $british_spelling, $text);
 				
+				if(is_array($british_spelling)) {
+					$british_spelling = $british_spelling[0];
+				}
+				
 				$uppercased_british_spelling = ucwords($british_spelling);
 				if($uppercased_british_spelling != $british_spelling) {
 					$uppercased_american_spelling = ucwords($american_spelling);
@@ -6594,9 +6598,9 @@
 				'fryer\'s'=>'frier\'s',
 				'fryer'=>'frier',
 				'fryers'=>'friers',
-				'fuehrer\'s'=>'führer\'s',
-				'fuehrer'=>'führer',
-				'fuehrers'=>'führers',
+				'fuehrer\'s'=>'fÃ¼hrer\'s',
+				'fuehrer'=>'fÃ¼hrer',
+				'fuehrers'=>'fÃ¼hrers',
 				'fueled'=>'fuelled',
 				'fueler\'s'=>'fueller\'s',
 				'fueler'=>'fueller',
@@ -13379,9 +13383,9 @@
 				'pinnule'=>'pinnulae',
 				'pinochle\'s'=>'pinocle\'s',
 				'pinochle'=>'pinocle',
-				'pinyon\'s'=>'piñon\'s',
-				'pinyon'=>'piñon',
-				'pinyons'=>'piñons',
+				'pinyon\'s'=>'piÃ±on\'s',
+				'pinyon'=>'piÃ±on',
+				'pinyons'=>'piÃ±ons',
 				'piratize'=>'piratise',
 				'piratizes'=>'piratises',
 				'piroshki\'s'=>'pirozhki\'s',
@@ -15426,7 +15430,7 @@
 				'robotizes'=>'robotises',
 				'robotizing'=>'robotising',
 				'roed'=>'rooed',
-				'Roentgen'=>'Röntgen',
+				'Roentgen'=>'RÃ¶ntgen',
 				'roentgenization'=>'roentgenisation',
 				'roentgenize'=>'roentgenise',
 				'roentgenized'=>'roentgenised',
@@ -17841,9 +17845,9 @@
 				'tokenized'=>'tokenised',
 				'tokenizes'=>'tokenises',
 				'tokenizing'=>'tokenising',
-				'tolstoy'=>'tolstoi',
-				'tolstoy\'s'=>'tolstoi\'s',
-				'tolstoyan'=>['tolstoian','tolstoyian',],
+				'tolstoy'=>['tolstoi', 'tolstoÃ¯', 'tÃ³lstÃ³y', 'tÃ³lstÃ³i', 'tÌolstÃ³y',],
+				'tolstoy\'s'=>['tolstoi\'s', 'tolstoÃ¯\'s', 'tÃ³lstÃ³y\'s', 'tÃ³lstÃ³i\s', 'tÌolstÃ³i\'s', 'tÌolstÃ³y\'s',],
+				'tolstoyan'=>['tolstoian','tolstoyian','tolstoÃ¯an', 'tolstoÃ¯ian', 'tÃ³lstÃ³yan', 'tÃ³lstÃ³yian', 'tÌolstÃ³ian', 'tÌolstÃ³yan',],
 				'tonicize'=>'tonicise',
 				'tonicizes'=>'tonicises',
 				'topee\'s'=>'topi\'s',
