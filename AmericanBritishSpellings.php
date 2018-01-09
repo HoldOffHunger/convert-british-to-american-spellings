@@ -42,11 +42,11 @@
 			$spelling_alternatives = $this->GetAmericanToBritishSpellings();
 			
 			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
-				$text = preg_replace('/\b' . $american_spelling . '\b/', $british_spelling, $text);
-				
 				if(is_array($british_spelling)) {
 					$british_spelling = $british_spelling[0];
 				}
+				
+				$text = preg_replace('/\b' . $american_spelling . '\b/', $british_spelling, $text);
 				
 				$uppercased_british_spelling = ucwords($british_spelling);
 				if($uppercased_british_spelling != $british_spelling) {
