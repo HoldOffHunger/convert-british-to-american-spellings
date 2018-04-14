@@ -9166,6 +9166,7 @@
 				'kopecks'=>['kopeks', 'copecks',],
 				'Kossean\'s'=>'Kossaean\'s',
 				'Kossean'=>'Kossaean',
+				'Kropotkin'=>'Kropotkine',
 				'kumquat\'s'=>'cumquat\'s',
 				'kumquat'=>'cumquat',
 				'kumquats'=>'cumquats',
