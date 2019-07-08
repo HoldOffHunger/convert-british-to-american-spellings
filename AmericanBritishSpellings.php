@@ -1,62 +1,81 @@
 <?php
-
 	class AmericanBritishSpellings {
-		public function __construct($args)
-		{
+		public function __construct($args) {
 			return TRUE;
 		}
 		
 		public function SwapBritishSpellingsForAmericanSpellings($args) {
 			$text = $args['text'];
-			$spelling_alternatives = $this->GetAmericanToBritishSpellings();
 			
-			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
-				if(is_array($british_spelling)) {
-					foreach($british_spelling as $british_word) {
-						$text = preg_replace('/\b' . $british_word . '\b/', $american_spelling, $text);
-						
-						$uppercased_american_spelling = ucwords($american_spelling);
-						if($uppercased_american_spelling != $american_spelling) {
-							$uppercased_british_spelling = ucwords($british_word);
-							
-							$text = preg_replace('/\b' . $uppercased_british_spelling . '\b/', $uppercased_american_spelling, $text);
-						}
-					}
-				} else {
-					$text = preg_replace('/\b' . $british_spelling . '\b/', $american_spelling, $text);
-					
-					$uppercased_american_spelling = ucwords($american_spelling);
-					if($uppercased_american_spelling != $american_spelling) {
-						$uppercased_british_spelling = ucwords($british_spelling);
-						
-						$text = preg_replace('/\b' . $uppercased_british_spelling . '\b/', $uppercased_american_spelling, $text);
-					}
-				}
-			}
+			$spelling_alternatives = $this->GetSpellingsAndReplacements(['language'=>'american']);
 			
+			$american_spellings = $spelling_alternatives['american'];
+			$british_spellings = $spelling_alternatives['british'];
+
+			$text = preg_replace($british_spellings, $american_spellings, $text);
+
 			return $text;
 		}
 		
 		public function SwapAmericanSpellingsForBritishSpellings($args) {
 			$text = $args['text'];
-			$spelling_alternatives = $this->GetAmericanToBritishSpellings();
 			
-			foreach($spelling_alternatives as $american_spelling => $british_spelling) {
-				if(is_array($british_spelling)) {
-					$british_spelling = $british_spelling[0];
-				}
-				
-				$text = preg_replace('/\b' . $american_spelling . '\b/', $british_spelling, $text);
-				
-				$uppercased_british_spelling = ucwords($british_spelling);
-				if($uppercased_british_spelling != $british_spelling) {
-					$uppercased_american_spelling = ucwords($american_spelling);
-					
-					$text = preg_replace('/\b' . $uppercased_american_spelling . '\b/', $uppercased_british_spelling, $text);
-				}
-			}
+			$spelling_alternatives = $this->GetSpellingsAndReplacements(['language'=>'british']);
+			
+			$american_spellings = $spelling_alternatives['american'];
+			$british_spellings = $spelling_alternatives['british'];
+
+			$text = preg_replace($american_spellings, $british_spellings, $text);
 			
 			return $text;
+		}
+		
+		public function GetSpellingsAndReplacements($args) {
+			$language = $args['language'];
+			
+			$spelling_alternatives = $this->GetAmericanToBritishSpellings();
+			
+			$american_spellings = array_keys($spelling_alternatives);
+			$british_spellings = array_values($spelling_alternatives);
+			
+			$british_spellings_count = count($british_spellings);
+			
+			for($i = 0; $i < $british_spellings_count; $i++) {
+				$british_spelling = $british_spellings[$i];
+				if(is_array($british_spelling)) {
+					$american_spelling = $american_spellings[$i];
+					
+					foreach($british_spelling as $british_spelling_item) {
+						$british_spellings[] = $british_spelling_item;
+						$american_spellings[] = $american_spelling;
+					}
+					
+					unset($american_spellings[$i]);
+					unset($british_spellings[$i]);
+				}
+			}
+			$american_spellings_uppercase = array_map('strtoupper', $american_spellings);
+			$british_spellings_uppercase = array_map('strtoupper', $british_spellings);
+			
+			if($language == 'american') {
+				$british_spellings = array_map(function ($str) { return '/\b' . $str . '\b/';} , $british_spellings);
+				$british_spellings_uppercase = array_map(function ($str) { return '/\b' . $str . '\b/';} , $british_spellings_uppercase);
+			} elseif($language == 'british') {
+				$american_spellings = array_map(function ($str) { return '/\b' . $str . '\b/';} , $american_spellings);
+				$american_spellings_uppercase = array_map(function ($str) { return '/\b' . $str . '\b/';} , $american_spellings_uppercase);
+			}
+		
+			foreach ($american_spellings_uppercase as $asu) {
+				$american_spellings[] = $asu;
+			}
+			foreach ($british_spellings_uppercase as $bsu) {
+				$british_spellings[] = $bsu;
+			}
+			
+			return [
+				'american'=>$american_spellings,
+				'british'=>$british_spellings,
+			];
 		}
 		
 		public function GetBritishToAmericanSpellings() {
