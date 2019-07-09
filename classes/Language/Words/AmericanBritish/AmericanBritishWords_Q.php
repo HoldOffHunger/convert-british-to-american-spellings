@@ -1,0 +1,71 @@
+<?php
+
+	class AmericanBritishWords_Q {
+		public function __construct($args) {
+			return TRUE;
+		}
+
+		public function AmericanBritishWords() {
+			return [
+				'quadraphonic'=>['quadriphonic', 'quadrophonic',],
+				'quadraphonics'=>['quadriphonics', 'quadrophonics',],
+				'quaestor\'s'=>'questor\'s',
+				'quaestor'=>'questor',
+				'quaestors'=>'questors',
+				'quahog\'s'=>'quahaug\'s',
+				'quahog'=>'quahaug',
+				'quahogs'=>'quahaugs',
+				'Quakerization\'s'=>'Quakerisation\'s',
+				'Quakerization'=>'Quakerisation',
+				'Quakerizations'=>'Quakerisations',
+				'Quakerize\'s'=>'Quakerise\'s',
+				'Quakerize'=>'Quakerise',
+				'Quakerizes'=>'Quakerises',
+				'quantization\'s'=>'quantisation\'s',
+				'quantization'=>'quantisation',
+				'quantizations'=>'quantisations',
+				'quantize'=>'quantise',
+				'quantized'=>'quantised',
+				'quantizer\'s'=>'quantiser\'s',
+				'quantizer'=>'quantiser',
+				'quantizers'=>'quantisers',
+				'quantizes'=>'quantises',
+				'quantizing'=>'quantising',
+				'quarreled'=>'quarrelled',
+				'quarreler\'s'=>'quarreller\'s',
+				'quarreler'=>'quarreller',
+				'Quarreler'=>'Quarreller',
+				'quarrelers'=>'quarrellers',
+				'quarreling'=>'quarrelling',
+				'quarrelous'=>'quarrellous',
+				'quarterization\'s'=>'quarterisation\'s',
+				'quarterization'=>'quarterisation',
+				'quarterizations'=>'quarterisations',
+				'quartet\'s'=>'quartette\'s',
+				'quartet'=>'quartette',
+				'quartets'=>'quartettes',
+				'quaters'=>'quatres',
+				'que'=>'quae',
+				'querele'=>'querelae',
+				'quester'=>'quaestor',
+				'questers'=>'quaestors',
+				'questionaries'=>'quaestionaries',
+				'questionary'=>'quaestionary',
+				'questorial'=>'quaestorial',
+				'questorship\'s'=>'quaestorship\'s',
+				'questorship'=>'quaestorship',
+				'queuing'=>'queueing',
+				'quininize'=>'quininise',
+				'quininizes'=>'quininises',
+				'quintessentialize'=>'quintessentialise',
+				'quintessentialized'=>'quintessentialised',
+				'quintessentializes'=>'quintessentialises',
+				'quintessentializing'=>'quintessentialising',
+				'quintet\'s'=>'quintette\'s',
+				'quintet'=>'quintette',
+				'quintets'=>'quintettes',
+			];
+		}
+	}
+	
+?>
