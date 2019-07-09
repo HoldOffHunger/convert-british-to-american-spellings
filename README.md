@@ -24,7 +24,7 @@ Converts text so that British spellings are swapped with their Americanized form
 ## Sample Usage:
 
     require('AmericanBritishSpellings.php');
-    $american_british_spellings = new AmericanBritishSpellings();
+    $american_british_spellings = new AmericanBritishSpellings([]);
   
     $text = "Axiomatically ax that door, would you, my neighbour?";
     $text = $american_british_spellings->SwapBritishSpellingsForAmericanSpellings(['text'=>$text]);
