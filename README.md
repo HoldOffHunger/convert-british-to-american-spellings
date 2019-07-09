@@ -4,7 +4,7 @@ Converts text so that British spellings are swapped with their Americanized form
 
 ## Online Demo:
 
-* Check out a much shorter list of replacements being demo'd online: [IDEOne Demo: British/American Spelling Converter](https://ideone.com/ojhwEd)
+* Check out a much shorter list of replacements being demo'd online: [IDEOne Demo: British/American Spelling Converter](https://ideone.com/YoWZ9y)
 
 ## Features:
 
