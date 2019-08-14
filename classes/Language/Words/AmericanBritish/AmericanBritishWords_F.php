@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_F
+					
+					Class for American/British spelling variants for all words beginning with : F.
+					
+				*/
 
 	class AmericanBritishWords_F {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : F.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
