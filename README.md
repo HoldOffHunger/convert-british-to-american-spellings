@@ -23,7 +23,7 @@ _Check out the code in an online demo..._
 
 ### Simple Demo Hosted by Us
 
-* [British/American Spelling Converter Script, hosted at EarthFluent.com](http://www.earthfluent.com/spellingconverter.php)
+* [British/American Spelling Converter Script, hosted at EarthFluent.com](http://www.earthfluent.com/convertspelling.php)
 
 ### Editable, Online Sandbox Demo (at IDEone.com)
 
