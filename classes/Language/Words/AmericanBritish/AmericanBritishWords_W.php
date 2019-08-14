@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_W
+					
+					Class for American/British spelling variants for all words beginning with : W.
+					
+				*/
 
 	class AmericanBritishWords_W {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : W.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
