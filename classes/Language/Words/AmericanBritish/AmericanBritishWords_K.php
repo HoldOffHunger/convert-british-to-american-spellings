@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_K
+					
+					Class for American/British spelling variants for all words beginning with : K.
+					
+				*/
 
 	class AmericanBritishWords_K {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : K.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
