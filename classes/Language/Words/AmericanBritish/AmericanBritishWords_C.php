@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_C
+					
+					Class for American/British spelling variants for all words beginning with : C.
+					
+				*/
 
 	class AmericanBritishWords_C {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : C.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
