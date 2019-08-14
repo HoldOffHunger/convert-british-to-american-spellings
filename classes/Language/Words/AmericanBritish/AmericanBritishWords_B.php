@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_B
+					
+					Class for American/British spelling variants for all words beginning with : B.
+					
+				*/
 
 	class AmericanBritishWords_B {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : B.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
