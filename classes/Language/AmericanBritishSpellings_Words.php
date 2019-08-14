@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishSpellings_Words
+					
+					Class for building word lists for converting UK/US english dialects.
+					
+				*/
 
 	class AmericanBritishSpellings_Words {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+				
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* GetBritishToAmericanSpellings()
+			
+				Build a mapping of British to American spellings.
+			
+			*/
 		
 		public function GetBritishToAmericanSpellings() {
 			if($this->british_to_american_spellings) {
@@ -26,6 +46,12 @@
 			
 			return $british_to_american_spellings;
 		}
+		
+			/* GetAmericanToBritishSpellings()
+			
+				Build a mapping of American to British spellings from the /Language/Words/AmericanBritish/ classes.
+			
+			*/
 
 		public function GetAmericanToBritishSpellings() {
 			$word_hash = [];
