@@ -1,20 +1,32 @@
 <?php
-
-				// Sources:
-				//
-				//	8,000 Words; http://www.wordsworldwide.co.uk/docs/Words-Worldwide-Word-list-UK-US-2009.doc
-				//	18,000 Words; https://github.com/en-wl/wordlist/blob/master/varcon/varcon.txt
-				//
-				//  These sources did more than provide the total sum of words.  They cross-checked each other and found errors.
-				//
-				//  Total After Removing Duplicates: 20,000
-
+				
+				/* AmericanBritishSpellings
+					
+					Class for converting text from US/UK spellings to US/UK spellings.
+					
+				*/
+				
+				
 	class AmericanBritishSpellings {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Load the words into the converter class for ready use.
+			
+			*/
+		
 		public function __construct($args) {
 			require('../classes/Language/AmericanBritishSpellings_Words.php');
 			$this->words = new AmericanBritishSpellings_Words([]);
 			return TRUE;
 		}
+		
+			/* SwapBritishSpellingsForAmericanSpellings($args)
+			
+				Convert text with British spellings to text with American spellings.
+			
+			*/
 		
 		public function SwapBritishSpellingsForAmericanSpellings($args) {
 			$text = $args['text'];
@@ -29,6 +41,12 @@
 			return $text;
 		}
 		
+			/* SwapAmericanSpellingsForBritishSpellings($args)
+			
+				Convert text with American spellings to text with British spellings.
+			
+			*/
+		
 		public function SwapAmericanSpellingsForBritishSpellings($args) {
 			$text = $args['text'];
 			
@@ -41,6 +59,12 @@
 			
 			return $text;
 		}
+		
+			/* GetSpellingsAndReplacements($args)
+			
+				Get spellings and replacements based on the desired end language.
+			
+			*/
 		
 		public function GetSpellingsAndReplacements($args) {
 			$language = $args['language'];
@@ -65,6 +89,12 @@
 			];
 		}
 		
+			/* BuildSpellingAlternates($args)
+			
+				Building spelling alternatives for British and American dialects.
+			
+			*/
+		
 		public function BuildSpellingAlternates($args) {
 			$language = $args['language'];
 			$american_spellings = $args['american'];
@@ -85,6 +115,12 @@
 			];
 		}
 		
+			/* BuildSpellingAlternatesForLanguage($args)
+			
+				Building spelling alternates for a single particular dialect of a language (either British or American, in our case).
+			
+			*/
+		
 		public function BuildSpellingAlternatesForLanguage($args) {
 			$spellings = $args['spellings'];
 			
@@ -102,6 +138,12 @@
 			return $spellings_and_alternates;
 		}
 		
+			/* function BuildSearchRegex($args)
+			
+				Build an array of search regexes when given an array of search terms.
+			
+			*/
+		
 		public function BuildSearchRegex($args) {
 			$spellings = $args['spellings'];
 			
@@ -112,11 +154,23 @@
 			return $spellings;
 		}
 		
+			/* function BuildSearchRegex($args)
+			
+				Build a single search regex for a single search term.
+			
+			*/
+		
 		public function BuildSearchRegexForWord($args) {
 			$text = $args;
 			
 			return '/\b' . $text . '\b/';
 		}
+		
+			/* BuildSpellingReplacements()
+			
+				Build the replacements to be used for the search terms.
+			
+			*/
 		
 		public function BuildSpellingReplacements() {
 			$spelling_alternatives = $this->words->GetAmericanToBritishSpellings();
