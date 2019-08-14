@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_R
+					
+					Class for American/British spelling variants for all words beginning with : R.
+					
+				*/
 
 	class AmericanBritishWords_R {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : R.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
