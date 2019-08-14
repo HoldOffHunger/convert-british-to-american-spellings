@@ -5,8 +5,7 @@
 					Class for converting text from US/UK spellings to US/UK spellings.
 					
 				*/
-				
-				
+								
 	class AmericanBritishSpellings {
 			/* __construct($args)
 			
