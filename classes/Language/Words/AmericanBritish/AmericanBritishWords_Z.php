@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_Z
+					
+					Class for American/British spelling variants for all words beginning with : Z.
+					
+				*/
 
 	class AmericanBritishWords_Z {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : Z.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
