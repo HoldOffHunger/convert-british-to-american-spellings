@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_M
+					
+					Class for American/British spelling variants for all words beginning with : M.
+					
+				*/
 
 	class AmericanBritishWords_M {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : M.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
