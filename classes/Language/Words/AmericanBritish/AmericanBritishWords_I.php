@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_I
+					
+					Class for American/British spelling variants for all words beginning with : I.
+					
+				*/
 
 	class AmericanBritishWords_I {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : I.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
