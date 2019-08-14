@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_T
+					
+					Class for American/British spelling variants for all words beginning with : T.
+					
+				*/
 
 	class AmericanBritishWords_T {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : T.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
