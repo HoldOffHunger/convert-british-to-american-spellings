@@ -139,9 +139,9 @@ _Class for converting text from US/UK spellings to US/UK spellings._
     * Building spelling alternatives for British and American dialects.
 * BuildSpellingAlternatesForLanguage($args)
     * Building spelling alternates for a single particular dialect of a language (either British or American, in our case).
-* function BuildSearchRegex($args)
+* BuildSearchRegex($args)
     * Build an array of search regexes when given an array of search terms.
-* function BuildSearchRegex($args)
+* BuildSearchRegex($args)
     * Build a single search regex for a single search term.
 * BuildSpellingReplacements()
     * Build the replacements to be used for the search terms.
