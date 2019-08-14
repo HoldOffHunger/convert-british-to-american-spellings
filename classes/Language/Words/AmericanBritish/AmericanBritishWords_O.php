@@ -1,9 +1,29 @@
 <?php
+				
+				/* AmericanBritishWords_O
+					
+					Class for American/British spelling variants for all words beginning with : O.
+					
+				*/
 
 	class AmericanBritishWords_O {
+			/* __construct($args)
+			
+				Constructor.
+				
+				Nothing to do here.
+			
+			*/
+			
 		public function __construct($args) {
 			return TRUE;
 		}
+		
+			/* AmericanBritishWords()
+			
+				List of US/UK spellings for words starting with : O.
+			
+			*/
 
 		public function AmericanBritishWords() {
 			return [
