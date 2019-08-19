@@ -50,6 +50,7 @@
 				'dastardize'=>'dastardise',
 				'dastardizes'=>'dastardises',
 				'daycare'=>'day-care',
+				'daylight'=>['daylight','day-light',],
 				'deaconize'=>'deaconise',
 				'deaconizes'=>'deaconises',
 				'deadrize'=>'deadrise',
