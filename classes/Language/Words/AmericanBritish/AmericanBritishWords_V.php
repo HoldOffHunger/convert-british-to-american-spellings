@@ -215,6 +215,7 @@
 				'verbalizers'=>'verbalisers',
 				'verbalizes'=>'verbalises',
 				'verbalizing'=>'verbalising',
+				'Vereschagin'=>['Vereschagin','Vereschaguine',],
 				'vermeiled'=>'vermeilled',
 				'vermeiles'=>'vermeilles',
 				'vermeiling'=>'vermeilling',
