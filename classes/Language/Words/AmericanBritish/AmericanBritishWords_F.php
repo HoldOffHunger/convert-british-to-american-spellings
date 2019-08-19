@@ -456,6 +456,7 @@
 				'fogies'=>'fogeys',
 				'fogy\'s'=>'fogey\'s',
 				'fogy'=>'fogey',
+				'folklore'=>['folklore', 'folk-lore',],
 				'fondue\'s'=>'fondu\'s',
 				'fondue'=>'fondu',
 				'fondues'=>'fondus',
