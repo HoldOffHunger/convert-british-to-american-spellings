@@ -2140,6 +2140,7 @@
 				'puebloize'=>'puebloise',
 				'puebloizes'=>'puebloises',
 				'puers'=>'pures',
+				'Pugachev'=>['Pugachev', 'Pugatchoff',],
 				'pulicide'=>'pulicidae',
 				'Pullmanize\'s'=>'Pullmanise\'s',
 				'Pullmanize'=>'Pullmanise',
