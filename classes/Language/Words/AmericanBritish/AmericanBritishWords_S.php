@@ -1242,6 +1242,7 @@
 				'stabilizers'=>'stabilisers',
 				'stabilizes'=>'stabilises',
 				'stabilizing'=>'stabilising',
+				'statecraft'=>['statecraft','state-craft',],
 				'stagy'=>'stagey',
 				'Stalinization'=>'Stalinisation',
 				'stallionize'=>'stallionise',
