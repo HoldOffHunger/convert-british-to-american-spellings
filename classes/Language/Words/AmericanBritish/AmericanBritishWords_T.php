@@ -735,6 +735,7 @@
 				'Turkize\'s'=>'Turkise\'s',
 				'Turkize'=>'Turkise',
 				'Turkizes'=>'Turkises',
+				'turncoat'=>['turncoat','turn-coat',],
 				'Tuscanize\'s'=>'Tuscanise\'s',
 				'Tuscanize'=>'Tuscanise',
 				'Tuscanizes'=>'Tuscanises',
