@@ -1,4 +1,10 @@
 <?php
+		
+		/* UTF-8 TEST
+		
+			中文汉字漢字
+		
+		*/
 				
 				/* AmericanBritishWords_X
 					

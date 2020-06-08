@@ -1,4 +1,10 @@
 <?php
+		
+		/* UTF-8 TEST
+		
+			中文汉字漢字
+		
+		*/
 				
 				/* AmericanBritishWords_F
 					
@@ -665,10 +671,10 @@
 				'furor\'s'=>'furore\'s',
 				'furor'=>'furore',
 				'furors'=>'furores',
-				'fuse\'s'=>'fuze\'s',
-				'fuse'=>'fuze',
-				'fused'=>'fuzed',
-				'fuses'=>'fuzes',
+				'fuze\'s'=>'fuse\'s',
+				'fuze'=>'fuse',
+				'fuzed'=>'fused',
+				'fuzes'=>'fuses',
 				'fusileer'=>'fusilier',
 				'fusileers'=>'fusiliers',
 				'fusilier\'s'=>'fusileer\'s',
@@ -683,12 +689,6 @@
 				'futilizes'=>'futilises',
 				'futurize'=>'futurise',
 				'futurizes'=>'futurises',
-				'fuze'=>'fuse',
-				'fuzed'=>'fused',
-				'fuzee'=>'fusee',
-				'fuzees'=>'fusees',
-				'fuzes'=>'fuses',
-				'fuzing'=>'fusing',
 			];
 		}
 	}

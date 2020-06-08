@@ -1,4 +1,4 @@
-# US/UK Spelling Converter
+﻿# US/UK Spelling Converter
 
 *You* provide the text, with either US/UK-spelling.
 
@@ -17,21 +17,28 @@ We have you covered -- for about 20,000 words.
 5. [Example Usage](#example-usage)
 6. [Code Structure and Design](#code-structure-and-design)
 
+<img src="./image/spelling-converter-01.jpg" width="600">
+
 ## Online Demos
 
 _Check out the code in an online demo..._
 
 ### Simple Demo Hosted by Us
 
-* [British/American Spelling Converter Script, hosted at EarthFluent.com](http://www.earthfluent.com/convertspelling.php)
+* [British/American Spelling Converter Script, hosted at RevoltLib.com](https://www.revoltlib.com/convertspelling.php)
 
 ### Editable, Online Sandbox Demo (at IDEone.com)
 
 Note: Since there are text limits to online compilers, we reduced the actual list of words covered to make this demo run.
 
-* [IDEOne Demo: British/American Spelling Converter](https://ideone.com/YoWZ9y)
+* [2020 IDEOne Demo: British/American Spelling Converter](https://ideone.com/e0Re7W)
+* [2019 IDEOne Demo: British/American Spelling Converter](https://ideone.com/YoWZ9y)
 
 ## Features
+
+_Regularly updated!  Please submit corrections, additions, fixes, anything!_
+
+* [Change Log](./CHANGELOG.md)
 
 _How many words are covered?_
 
@@ -51,7 +58,9 @@ _How many words are covered?_
 
 ## Functionality
 
-_How exactly does it work?_
+### General Behavior
+
+_How in general does it work?_
 
 * **Exact / Error-Resistant**
     * British/American Spelling Converter uses regular expression checking with `/\b$word\b/`, so this makes it impossible to corrupt words.
@@ -59,12 +68,34 @@ _How exactly does it work?_
 * **Fast / Efficient**
     * Every mass-replace is done within a single `preg_replace()` call, using arrays as arguments
     * This means that the script will finish much sooner.
-* **Case-Sensitive / Case-Adaptive / Acronym-Safe**
-    * Checks each word in the word list and its `ucwords`-formatted version (words with first letter uppercased), so acronyms will not be affected.
-    * For example, "our group, AX, Avenger Xenophiles," will *not* be converted to "our group, AXE, Avenger Xenophiles".
 * **Reliable / Atomic / Deterministic**
     * American-ize/British-ify will not corrupt meaning.
     * For example, 'discus' and 'diskus' have reverse meanings in US/UK, swapping them in or out will cause the text to change each time you "Americanize" or "Britishify" it.  So, we don't do these types of swaps.
+
+### Precise Behavior - Use Cases
+
+_How exactly does it work?_
+
+* Only all lower case, all upper case, or first letter capitalized versions are converted.
+    * Example: American=>English, "axe"=>"ax", "AXE" would be converted to "AX" or vice versa, but "AxE would not be converted to Ax".
+* Apostrophes are treated as word boundaries.
+    * Example: American=>English, "axe"=>"ax", "the ax's handle" would be converted to "the axe's handle."
+* Only precisely whole, known words are converted.
+    * Example: American=>English, "axe"=>"ax", this will not convert "axed" to axd", because the "-d" concluding character indicates that it is an entirely different word.
+* Dashes are treated as word boundaries only when not preceded and followed by a dash.
+    * Example: American=>English, "affecteffect=>affect-effect", this will convert "the affect-effect of it" to "the affecteffect of it", but it will not convert "these every-night-affect-effect-happenings are" to "these every-every-night-affecteffect-happenings are", as the dash here implies new meaning than when solely alone.
+* British alternates are handled.
+    * Example: American=>English, "amoebas"=>["amoebae", "amebas", "amebae",], if converting to English, "amoebas" will be replaced with "amoebae", the most contemporary term, and if converting to American, "amoebae", "amebas", etc., will all be converted to the single, American equivalent.
+    
+_Some test sentences..._
+
+The neighbour walked to the theatre's centre, manoeuvred about the sabre, and proceeded to reconnoitre the sepulchre in ochre.
+
+The rumour spread that splendour and flavour were affected by our behaviour, so walk a metre in my mitre while carrying a litre of nitre.
+
+The connexion with industrialisation remains with the municipalisation of the calibre of the fibre of the spectre, not with the meagre and sombre saltpetre with all its colour and honour.
+
+<img src="./image/spelling-converter-02.jpg" width="600">
 
 ## Example Usage
 
@@ -118,6 +149,8 @@ We do this with an exclude list, which also details the conflict in the words th
 
 Check it out: [Exclude List](EXCLUDE_LIST.MD).
 
+<img src="./image/spelling-converter-03.jpg" width="600">
+
 ### AmericanBritishSpellings.php - Technical Overview
 
 _What are the functions in the sourcecode files for?_
@@ -159,209 +192,11 @@ _Class for building word lists for converting UK/US english dialects._
     * Build a mapping of American to British spellings from the /Language/Words/AmericanBritish/ classes.
 
 *AmericanBritishWords_A.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : A.
-
-*AmericanBritishWords_B.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : B.
-
-*AmericanBritishWords_C.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : C.
-
-*AmericanBritishWords_D.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : D.
-
-*AmericanBritishWords_E.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : E.
-
-*AmericanBritishWords_F.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : F.
-
-*AmericanBritishWords_G.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : G.
-
-*AmericanBritishWords_H.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : H.
-
-*AmericanBritishWords_I.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : I.
-
-*AmericanBritishWords_J.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : J.
-
-*AmericanBritishWords_K.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : K.
-
-*AmericanBritishWords_L.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : L.
-
-*AmericanBritishWords_M.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : M.
-
-*AmericanBritishWords_N.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : N.
-
-*AmericanBritishWords_O.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : O.
-
-*AmericanBritishWords_P.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : P.
-
-*AmericanBritishWords_Q.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : Q.
-
-*AmericanBritishWords_R.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : R.
-
-*AmericanBritishWords_S.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : S.
-
-*AmericanBritishWords_T.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : T.
-
-*AmericanBritishWords_U.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : U.
-
-*AmericanBritishWords_V.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : V.
-
-*AmericanBritishWords_W.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : W.
-
-*AmericanBritishWords_X.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : X.
-
-*AmericanBritishWords_Y.php*
-
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
-    * List of US/UK spellings for words starting with : Y.
-
+*...*
 *AmericanBritishWords_Z.php*
 
 * __construct($args)
     * Constructor.
     * Load the words into the converter class for ready use.
 * AmericanBritishWords()
-    * List of US/UK spellings for words starting with : Z.
+    * List of US/UK spellings for words starting with : A...Z.

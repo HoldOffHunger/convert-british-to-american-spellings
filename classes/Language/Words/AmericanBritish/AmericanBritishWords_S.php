@@ -1,4 +1,10 @@
 <?php
+		
+		/* UTF-8 TEST
+		
+			中文汉字漢字
+		
+		*/
 				
 				/* AmericanBritishWords_S
 					
@@ -1895,13 +1901,13 @@
 				'systemization\'s'=>'systemisation\'s',
 				'systemization'=>'systemisation',
 				'systemizations'=>'systemisations',
-				'systemize'=>'systemise',
-				'systemized'=>'systemised',
+				'systemize'=>['systemise', 'systematize', 'systematice',],
+				'systemized'=>['systemised', 'systematized', 'systematiced',],
 				'systemizer\'s'=>'systemiser\'s',
 				'systemizer'=>'systemiser',
 				'systemizers'=>'systemisers',
-				'systemizes'=>'systemises',
-				'systemizing'=>'systemising',
+				'systemizes'=>['systemises', 'systematizes', 'systematices',],
+				'systemizing'=>['systemising', 'systematizing', 'systematicing',],
 			];
 		}
 	}
