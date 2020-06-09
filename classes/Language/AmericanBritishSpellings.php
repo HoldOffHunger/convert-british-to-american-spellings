@@ -16,7 +16,7 @@
 			*/
 		
 		public function __construct($args) {
-			require('../classes/Language/AmericanBritishSpellings_Words.php');
+			require(__DIR__ . '/classes/Language/AmericanBritishSpellings_Words.php');
 			$this->words = new AmericanBritishSpellings_Words([]);
 			return TRUE;
 		}
