@@ -15,11 +15,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         * Updated revoltlib.com demo to have links to lists of words and conversions supported.
 - Source Code Improvements.
         * Added UTF-8 debugging POD and corrected some small, UTF-8 corruption.
+        * Improved setting the package include locations.
 - New American=>English equivalents (counts updated at README.md, also):
         * Added 500 new words.
         * Added various, archaic spellings of anglicized, Russian words (ending in '-eff' that should've ended in '-ev', i.e., Kieff/Kiev).
         * Added various, archaic spellings of dash word alternates (i.e., Now-a-days/Nowadays).
-        * Added various, archaic spellings of various ethnicities (i.e., mordvins/mordovians, servians/serbians).
+        * Added various, archaic spellings of various ethnicities (i.e., mordvins/mordovians, serbians/servians).
         * Added "-fold" number word archaic alternates (i.e., hundred-fold/hundredfold).
 
 ## [1.01] - 2019-08-19
