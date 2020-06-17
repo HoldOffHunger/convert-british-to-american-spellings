@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.02] - 2020-06-07 (UNRELEASED)
+## [1.02] - 2020-06-16
 
 - Improved README.md.
         * Added use case list.
@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         * Added various, archaic spellings of dash word alternates (i.e., Now-a-days/Nowadays).
         * Added various, archaic spellings of various ethnicities (i.e., mordvins/mordovians, serbians/servians).
         * Added "-fold" number word archaic alternates (i.e., hundred-fold/hundredfold).
+        * Removed and consolidated 3 duplicates.
 
 ## [1.01] - 2019-08-19
 - Improved README.md.

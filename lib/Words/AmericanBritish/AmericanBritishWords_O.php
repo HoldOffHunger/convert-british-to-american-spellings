@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_O
 					
@@ -53,13 +63,14 @@
 				'objectizes'=>'objectises',
 				'oblivionize'=>'oblivionise',
 				'oblivionizes'=>'oblivionises',
+				'obnizovov'=>['obnizovov', 'obnizovoff',],
 				'Occidentalization\'s'=>'Occidentalisation\'s',
 				'Occidentalization'=>'Occidentalisation',
 				'Occidentalizations'=>'Occidentalisations',
 				'occidentalize'=>'occidentalise',
 				'Occidentalize'=>'Occidentalise',
-				'occidentalized'=>'occidentalised',
 				'Occidentalized'=>['Occidentalised', 'Occidentalized',],
+				'occidentalized'=>'occidentalised',
 				'occidentalizes'=>'occidentalises',
 				'occidentalizing'=>'occidentalising',
 				'ocher\'s'=>'ochre\'s',
@@ -119,6 +130,11 @@
 				'officializing'=>'officialising',
 				'off-license'=>'off-licence',
 				'off-licenses'=>'off-licences',
+				'ogarkovov'=>['ogarkovov', 'ogarkovoff',],
+				'ogorodnikovov'=>['ogorodnikovov', 'ogorodnikovoff',],
+				'ogurtsovov'=>['ogurtsovov', 'ogurtsovoff',],
+				'okulovov'=>['okulovov', 'okulovoff',],
+				'olenevev'=>['olenevev', 'oleneveff',],
 				'oleomargarine\'s'=>'oleomargarin\'s',
 				'oleomargarine'=>'oleomargarin',
 				'oleomargarines'=>'oleomargarins',
@@ -198,13 +214,12 @@
 				'oralize'=>'oralise',
 				'oralizes'=>'oralises',
 				'orang'=>'ourang',
-				'orangutan'=>['orangutan', 'orang-outan',],
 				'orangize'=>'orangise',
 				'orangizes'=>'orangises',
 				'orangs'=>'ourangs',
 				'orangutan\'s'=>'orangutang\'s',
-				'orangutan'=>['orang-utan', 'orangutang',],
-				'orangutans'=>['orangutangs', 'orang-utans',],
+				'orangutan'=>['orangutan', 'orang-outan', 'orang-utan', 'orangutang',],
+				'orangutans'=>['orangutangs', 'orang-utans', 'orang-utans', 'orangutangs',],
 				'oratorize'=>'oratorise',
 				'oratorizes'=>'oratorises',
 				'orchester'=>'orchestre',
@@ -256,6 +271,7 @@
 				'orientizations'=>'orientisations',
 				'orientize'=>'orientise',
 				'orientizes'=>'orientises',
+				'orlovov'=>['orlovov', 'orlovoff',],
 				'ornamentalize'=>'ornamentalise',
 				'ornamentalizes'=>'ornamentalises',
 				'orologies'=>'ourologies',
@@ -295,6 +311,11 @@
 				'orthopedy'=>'orthopaedy',
 				'orthopnea'=>'orthopnoea',
 				'orthopneic'=>'orthopnoeic',
+				'oshurkovov'=>['oshurkovov', 'oshurkovoff',],
+				'osinovov'=>['osinovov', 'osinovoff',],
+				'osintsevev'=>['osintsevev', 'osintseveff',],
+				'osipenkovov'=>['osipenkovov', 'osipenkovoff',],
+				'ostaltsevev'=>['ostaltsevev', 'ostaltseveff',],
 				'osteopedion'=>'osteopaedion',
 				'ostracizable\'s'=>'ostracisable\'s',
 				'ostracizable'=>'ostracisable',
@@ -309,6 +330,7 @@
 				'ostracizers'=>'ostracisers',
 				'ostracizes'=>'ostracises',
 				'ostracizing'=>'ostracising',
+				'ostroverkhovov'=>['ostroverkhovov', 'ostroverkhovoff',],
 				'othematoma'=>'othaematoma',
 				'otorrhea'=>'otorrhoea',
 				'Ottomanization\'s'=>'Ottomanisation\'s',
@@ -542,6 +564,7 @@
 				'oxysulfide'=>'oxysulphide',
 				'oxysulfides'=>'oxysulphides',
 				'ozena'=>['ozaena', 'ozoena',],
+				'ozerovov'=>['ozerovov', 'ozerovoff',],
 				'ozonization\'s'=>'ozonisation\'s',
 				'ozonization'=>'ozonisation',
 				'ozonizations'=>'ozonisations',

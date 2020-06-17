@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_E
 					
@@ -149,6 +159,8 @@
 				'Egyptize\'s'=>'Egyptise\'s',
 				'Egyptize'=>'Egyptise',
 				'Egyptizes'=>'Egyptises',
+				'el dorado'=>'eldorado',
+				'El Dorado'=>'Eldorado',
 				'elasticization'=>'elasticisation',
 				'elasticize'=>'elasticise',
 				'elasticized'=>'elasticised',
@@ -156,8 +168,6 @@
 				'elasticizers'=>'elasticisers',
 				'elasticizes'=>'elasticises',
 				'elasticizing'=>'elasticising',
-				'el dorado'=>'eldorado',
-				'El Dorado'=>'Eldorado',
 				'electricalize'=>'electricalise',
 				'electricalizes'=>'electricalises',
 				'electricize'=>'electricise',
@@ -201,6 +211,7 @@
 				'elegized'=>'elegised',
 				'elegizes'=>'elegises',
 				'elegizing'=>'elegising',
+				'elembayevev'=>['elembayevev', 'elembayeveff',],
 				'elementalize'=>'elementalise',
 				'elementalizes'=>'elementalises',
 				'eleoblast'=>'elaeoblast',
@@ -389,6 +400,7 @@
 				'Englishize\'s'=>'Englishise\'s',
 				'Englishize'=>'Englishise',
 				'Englishizes'=>'Englishises',
+				'engovatovov'=>['engovatovov', 'engovatovoff',],
 				'engrandize'=>'engrandise',
 				'engrandizement\'s'=>'engrandisement\'s',
 				'engrandizement'=>'engrandisement',
@@ -442,8 +454,8 @@
 				'entenders'=>'entendres',
 				'enterocele'=>'enterocoele',
 				'enteroceles'=>'enterocoeles',
-				'enterprise'=>'enterprize',
 				'enterprise\'s'=>'enterprize\'s',
+				'enterprise'=>'enterprize',
 				'enterprising'=>'enterprizing',
 				'enthrall'=>['enthral', 'inthrall',],
 				'enthralled'=>['inthralled', 'enslave',],
@@ -609,6 +621,7 @@
 				'ergotizing'=>'ergotising',
 				'eric'=>'aeric',
 				'erical'=>'aerical',
+				'eristovov'=>['eristovov', 'eristovoff',],
 				'erke'=>'reke',
 				'ern'=>'ren',
 				'ernes'=>'renes',

@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_F
 					
@@ -50,6 +60,7 @@
 				'factorized'=>'factorised',
 				'factorizes'=>'factorises',
 				'factorizing'=>'factorising',
+				'fadeevev'=>['fadeevev', 'fadeeveff',],
 				'faence\'s'=>'faoence\'s',
 				'faence'=>'faoence',
 				'faerie\'s'=>'faery\'s',
@@ -180,6 +191,7 @@
 				'fecundizes'=>'fecundises',
 				'fedarie'=>'foedarie',
 				'fedaries'=>'foedaries',
+				'fedchenkovov'=>['fedchenkovov', 'fedchenkovoff',],
 				'federalization\'s'=>'federalisation\'s',
 				'federalization'=>'federalisation',
 				'federalizations'=>'federalisations',
@@ -189,6 +201,10 @@
 				'federalizing'=>'federalising',
 				'Fedor\'s'=>'Faedor\'s',
 				'Fedor'=>'Faedor',
+				'fedoseyevev'=>['fedoseyevev', 'fedoseyeveff',],
+				'fedosovov'=>['fedosovov', 'fedosovoff',],
+				'fedotovov'=>['fedotovov', 'fedotovoff',],
+				'fedulovov'=>['fedulovov', 'fedulovoff',],
 				'feer'=>'fere',
 				'feers'=>'feres',
 				'fellow-traveler'=>'fellow-traveller',
@@ -270,6 +286,7 @@
 				'fetishized'=>'fetishised',
 				'fetishizes'=>'fetishises',
 				'fetishizing'=>'fetishising',
+				'fetisovov'=>['fetisovov', 'fetisovoff',],
 				'fetology'=>'foetology',
 				'fetor\'s'=>'foetor\'s',
 				'fetor'=>'foetor',
@@ -335,6 +352,12 @@
 				'fictionizing'=>'fictionising',
 				'figurize'=>'figurise',
 				'figurizes'=>'figurises',
+				'filatovov'=>['filatovov', 'filatovoff',],
+				'filchenkovov'=>['filchenkovov', 'filchenkovoff',],
+				'filenkovov'=>['filenkovov', 'filenkovoff',],
+				'filimonovov'=>['filimonovov', 'filimonovoff',],
+				'filipovov'=>['filipovov', 'filipovoff',],
+				'filippovov'=>['filippovov', 'filippovoff',],
 				'fillet\'s'=>'filet\'s',
 				'fillet'=>'filet',
 				'filleted'=>'fileted',
@@ -358,6 +381,7 @@
 				'Finlandizes'=>'Finlandises',
 				'Finlandizing'=>'Finlandising',
 				'firable'=>'fireable',
+				'firsovov'=>['firsovov', 'firsovoff',],
 				'fiscalization\'s'=>'fiscalisation\'s',
 				'fiscalization'=>'fiscalisation',
 				'fiscalizations'=>'fiscalisations',
@@ -449,6 +473,7 @@
 				'flutist\'s'=>'flautist\'s',
 				'flutist'=>'flautist',
 				'flutists'=>'flautists',
+				'flyorovov'=>['flyorovov', 'flyorovoff',],
 				'flypast'=>'fly-past',
 				'focalization\'s'=>'focalisation\'s',
 				'focalization'=>'focalisation',
@@ -463,6 +488,8 @@
 				'fogy\'s'=>'fogey\'s',
 				'fogy'=>'fogey',
 				'folklore'=>['folklore', 'folk-lore',],
+				'fomenkovov'=>['fomenkovov', 'fomenkovoff',],
+				'fomichyovov'=>['fomichyovov', 'fomichyovoff',],
 				'fondue\'s'=>'fondu\'s',
 				'fondue'=>'fondu',
 				'fondues'=>'fondus',
@@ -528,6 +555,7 @@
 				'formulizer'=>'formuliser',
 				'formulizes'=>'formulises',
 				'formulizing'=>'formulising',
+				'foroponovov'=>['foroponovov', 'foroponovoff',],
 				'forswear'=>'foreswear',
 				'forswearing'=>'foreswearing',
 				'forswears'=>'foreswears',
@@ -585,6 +613,7 @@
 				'Franklinization\'s'=>'Franklinisation\'s',
 				'Franklinization'=>'Franklinisation',
 				'Franklinizations'=>'Franklinisations',
+				'frantsevev'=>['frantsevev', 'frantseveff',],
 				'fraternization\'s'=>'fraternisation\'s',
 				'fraternization'=>'fraternisation',
 				'fraternizations'=>'fraternisations',
@@ -626,6 +655,7 @@
 				'frizettes'=>'frisettes',
 				'frizz\'s'=>'friz\'s',
 				'frizz'=>'friz',
+				'frolovov'=>['frolovov', 'frolovoff',],
 				'frowzier'=>'frowsier',
 				'frowziest'=>'frowsiest',
 				'frowzy'=>'frowsy',
@@ -668,13 +698,10 @@
 				'furcule'=>'furculae',
 				'Furie\'s'=>'Furiae\'s',
 				'Furie'=>'Furiae',
+				'furmanovov'=>['furmanovov', 'furmanovoff',],
 				'furor\'s'=>'furore\'s',
 				'furor'=>'furore',
 				'furors'=>'furores',
-				'fuze\'s'=>'fuse\'s',
-				'fuze'=>'fuse',
-				'fuzed'=>'fused',
-				'fuzes'=>'fuses',
 				'fusileer'=>'fusilier',
 				'fusileers'=>'fusiliers',
 				'fusilier\'s'=>'fusileer\'s',
@@ -689,6 +716,11 @@
 				'futilizes'=>'futilises',
 				'futurize'=>'futurise',
 				'futurizes'=>'futurises',
+				'fuze\'s'=>'fuse\'s',
+				'fuze'=>'fuse',
+				'fuzed'=>'fused',
+				'fuzes'=>'fuses',
+				'fyodorovov'=>['fyodorovov', 'fyodorovoff',],
 			];
 		}
 	}

@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_D
 					
@@ -55,6 +65,7 @@
 				'Darwinizes'=>'Darwinises',
 				'dastardize'=>'dastardise',
 				'dastardizes'=>'dastardises',
+				'davydovov'=>['davydovov', 'davydovoff',],
 				'daycare'=>'day-care',
 				'daylight'=>['daylight','day-light',],
 				'deaconize'=>'deaconise',
@@ -206,6 +217,7 @@
 				'decriminalizing'=>'decriminalising',
 				'dedal'=>'daedal',
 				'dedalian'=>'daedalian',
+				'dedovov'=>['dedovov', 'dedovoff',],
 				'dedramatize'=>'dedramatise',
 				'dedramatized'=>'dedramatised',
 				'dedramatizes'=>'dedramatises',
@@ -301,6 +313,7 @@
 				'deglycerolized'=>'deglycerolised',
 				'deglycerolizes'=>'deglycerolises',
 				'deglycerolizing'=>'deglycerolising',
+				'degtyarevev'=>['degtyarevev', 'degtyareveff',],
 				'dehumanization\'s'=>'dehumanisation\'s',
 				'dehumanization'=>'dehumanisation',
 				'dehumanizations'=>'dehumanisations',
@@ -370,6 +383,7 @@
 				'delocalized'=>'delocalised',
 				'delocalizes'=>'delocalises',
 				'delocalizing'=>'delocalising',
+				'delovov'=>['delovov', 'delovoff',],
 				'deluster'=>'delustre',
 				'delustered'=>'delustred',
 				'delustering'=>'delustring',
@@ -416,6 +430,8 @@
 				'demeanor\'s'=>'demeanour\'s',
 				'demeanor'=>'demeanour',
 				'demeanors'=>'demeanours',
+				'dementyevev'=>['dementyevev', 'dementyeveff',],
+				'demidovov'=>['demidovov', 'demidovoff',],
 				'demilitarization\'s'=>'demilitarisation\'s',
 				'demilitarization'=>'demilitarisation',
 				'demilitarizations'=>'demilitarisations',
@@ -521,6 +537,7 @@
 				'denaturizes'=>'denaturises',
 				'denaturizing'=>'denaturising',
 				'denicotinize'=>'denicotinise',
+				'denisovov'=>['denisovov', 'denisovoff',],
 				'denizenize'=>'denizenise',
 				'denizenizes'=>'denizenises',
 				'denominationalize'=>'denominationalise',
@@ -665,6 +682,7 @@
 				'dereligionizing'=>'dereligionising',
 				'derk'=>'drek',
 				'dermatorrhea'=>'dermatorrhoea',
+				'dernovov'=>['dernovov', 'dernovoff',],
 				'Derr\'s'=>'Drer\'s',
 				'Derr'=>'Drer',
 				'desacralization'=>'desacralisation',
@@ -809,6 +827,7 @@
 				'dexterousness'=>'dextrousness',
 				'dexterousnesses'=>'dextrousnesses',
 				'dextroamphetamin'=>'dextroamphetamine',
+				'dezhnyovov'=>['dezhnyovov', 'dezhnyovoff',],
 				'diabolization\'s'=>'diabolisation\'s',
 				'diabolization'=>'diabolisation',
 				'diabolizations'=>'diabolisations',
@@ -1214,6 +1233,9 @@
 				'djellaba\'s'=>'djellabah\'s',
 				'djellaba'=>'djellabah',
 				'djellabas'=>'djellabahes',
+				'dmitriyevev'=>['dmitriyevev', 'dmitriyeveff',],
+				'dobrolyubovov'=>['dobrolyubovov', 'dobrolyubovoff',],
+				'dobronravovov'=>['dobronravovov', 'dobronravovoff',],
 				'Docete\'s'=>'Docetae\'s',
 				'Docete'=>'Docetae',
 				'dockization\'s'=>'dockisation\'s',
@@ -1262,6 +1284,7 @@
 				'dogmatizing'=>'dogmatising',
 				'dognaped'=>'dognapped',
 				'dognaping'=>'dognapping',
+				'dolgorukovov'=>['dolgorukovov', 'dolgorukovoff',],
 				'dollarization'=>'dollarisation',
 				'dollarizations'=>'dollarisations',
 				'dolomitization\'s'=>'dolomitisation\'s',
@@ -1274,6 +1297,8 @@
 				'dolor\'s'=>'dolour\'s',
 				'dolor'=>'dolour',
 				'dolors'=>'dolours',
+				'dolzhikovov'=>['dolzhikovov', 'dolzhikovoff',],
+				'domashyovov'=>['domashyovov', 'domashyovoff',],
 				'domesticize'=>'domesticise',
 				'domesticized'=>'domesticised',
 				'domesticizes'=>'domesticises',
@@ -1290,7 +1315,10 @@
 				'dorized'=>'dorised',
 				'dorizes'=>'dorises',
 				'dorizing'=>'dorising',
+				'dorofeyevev'=>['dorofeyevev', 'dorofeyeveff',],
+				'dorokhovov'=>['dorokhovov', 'dorokhovoff',],
 				'doryline'=>'dorylinae',
+				'dostovalovov'=>['dostovalovov', 'dostovalovoff',],
 				'double-barreled'=>'double-barrelled',
 				'doughnut\'s'=>'donut\'s',
 				'doughnut'=>'donut',
@@ -1342,10 +1370,12 @@
 				'draftswoman'=>'draughtswoman',
 				'draftswomen'=>'draughtswomen',
 				'drafty'=>'draughty',
+				'dragomirovov'=>['dragomirovov', 'dragomirovoff',],
 				'dragonize'=>'dragonise',
 				'dragonized'=>'dragonised',
 				'dragonizes'=>'dragonises',
 				'dragonizing'=>'dragonising',
+				'dragunovov'=>['dragunovov', 'dragunovoff',],
 				'dramatizable\'s'=>'dramatisable\'s',
 				'dramatizable'=>'dramatisable',
 				'dramatizabler'=>'dramatisabler',
@@ -1380,7 +1410,9 @@
 				'druggie\'s'=>'druggy\'s',
 				'druggie'=>'druggy',
 				'druggy'=>'druggie',
+				'drugovov'=>['drugovov', 'drugovoff',],
 				'dryly'=>'drily',
+				'dryomovov'=>['dryomovov', 'dryomovoff',],
 				'dualization\'s'=>'dualisation\'s',
 				'dualization'=>'dualisation',
 				'dualizations'=>'dualisations',
@@ -1388,6 +1420,8 @@
 				'dualized'=>'dualised',
 				'dualizes'=>'dualises',
 				'dualizing'=>'dualising',
+				'dubolazovov'=>['dubolazovov', 'dubolazovoff',],
+				'dubovov'=>['dubovov', 'dubovoff',],
 				'ductilize'=>'ductilise',
 				'ductilizes'=>'ductilises',
 				'dueled'=>'duelled',
@@ -1403,6 +1437,7 @@
 				'dullness\'s'=>'dulness\'s',
 				'dullness'=>'dulness',
 				'dullnesses'=>'dulnesses',
+				'dultsevev'=>['dultsevev', 'dultseveff',],
 				'dumbfound'=>'dumfound',
 				'dumbfounded'=>'dumfounded',
 				'dumbfounding'=>'dumfounding',
@@ -1410,7 +1445,10 @@
 				'dumbfounds'=>'dumfounds',
 				'duolog'=>'duologue',
 				'duologs'=>'duologues',
+				'durovov'=>['durovov', 'durovoff',],
+				'dvornikovov'=>['dvornikovov', 'dvornikovoff',],
 				'dwarflike'=>'dwarf-like',
+				'dyatlovov'=>['dyatlovov', 'dyatlovoff',],
 				'dykey'=>'dikey',
 				'dykier'=>'dikier',
 				'dykiest'=>'dikiest',
@@ -1418,6 +1456,7 @@
 				'dynamized'=>'dynamised',
 				'dynamizes'=>'dynamises',
 				'dynamizing'=>'dynamising',
+				'dyogtevev'=>['dyogtevev', 'dyogteveff',],
 				'dysesthesia'=>'dysaesthesia',
 				'dysesthetic'=>'dysaesthetic',
 				'dysmenorrhea\'s'=>'dysmenorrhoea\'s',
@@ -1430,6 +1469,7 @@
 				'dyspneal'=>'dyspnoeal',
 				'dyspneas'=>'dyspnoeas',
 				'dyspneic'=>'dyspnoeic',
+				'dyuzhenkovov'=>['dyuzhenkovov', 'dyuzhenkovoff',],
 			];
 		}
 	}

@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_I
 					
@@ -33,6 +43,7 @@
 
 		public function AmericanBritishWords() {
 			return [
+				'ibragimovov'=>['ibragimovov', 'ibragimovoff',],
 				'ichneumonized\'s'=>'ichneumonised\'s',
 				'ichneumonized'=>'ichneumonised',
 				'ichneumonizeds'=>'ichneumoniseds',
@@ -111,6 +122,7 @@
 				'igniter\'s'=>'ignitor\'s',
 				'igniter'=>'ignitor',
 				'igniters'=>'ignitors',
+				'igumnovov'=>['igumnovov', 'igumnovoff',],
 				'ileocecal'=>'ileocaecal',
 				'Iliadize\'s'=>'Iliadise\'s',
 				'Iliadize'=>'Iliadise',
@@ -139,6 +151,7 @@
 				'illiberalizing'=>'illiberalising',
 				'Illuminize'=>'Illuminise',
 				'Illuminizes'=>'Illuminises',
+				'ilyasovov'=>['ilyasovov', 'ilyasovoff',],
 				'Imer\'s'=>'Imre\'s',
 				'Imer'=>'Imre',
 				'immaterialization'=>'immaterialisation',
@@ -337,6 +350,7 @@
 				'inorganization'=>'inorganisation',
 				'inorganizations'=>'inorganisations',
 				'inorganized'=>'inorganised',
+				'inozemtsevev'=>['inozemtsevev', 'inozemtseveff',],
 				'inquire'=>'enquire',
 				'inquired'=>'enquired',
 				'inquires'=>'enquires',
@@ -496,6 +510,7 @@
 				'ionizings'=>'ionisings',
 				'ionizion'=>'ionision',
 				'ionizions'=>'ionisions',
+				'ipatyevev'=>['ipatyevev', 'ipatyeveff',],
 				'Iphinoe\'s'=>'Iphinoae\'s',
 				'Iphinoe'=>'Iphinoae',
 				'ipomea'=>'ipomoea',
@@ -539,6 +554,7 @@
 				'irrecognizable'=>'irrecognisable',
 				'irregularize'=>'irregularise',
 				'irregularizes'=>'irregularises',
+				'isayevev'=>['isayevev', 'isayeveff',],
 				'ischemia\'s'=>'ischaemia\'s',
 				'ischemia'=>'ischaemia',
 				'ischemias'=>'ischaemias',
@@ -557,6 +573,7 @@
 				'Islamized'=>'Islamised',
 				'Islamizes'=>'Islamises',
 				'Islamizing'=>'Islamising',
+				'ismaylovov'=>['ismaylovov', 'ismaylovoff',],
 				'isochronization'=>'isochronisation',
 				'isochronize'=>'isochronise',
 				'isochronized'=>'isochronised',
@@ -610,7 +627,12 @@
 				'itemizing'=>'itemising',
 				'Iturean'=>'Ituraean',
 				'Itureans'=>'Ituraeans',
+				'ivankovov'=>['ivankovov', 'ivankovoff',],
+				'ivanovov'=>['ivanovov', 'ivanovoff',],
+				'ivashovov'=>['ivashovov', 'ivashovoff',],
 				'izing'=>'ising',
+				'izmaylovov'=>['izmaylovov', 'izmaylovoff',],
+				'izyumovov'=>['izyumovov', 'izyumovoff',],
 			];
 		}
 	}

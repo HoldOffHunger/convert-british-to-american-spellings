@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_V
 					
@@ -53,6 +63,7 @@
 				'vaginule'=>'vaginulae',
 				'vagrantize'=>'vagrantise',
 				'vagrantizes'=>'vagrantises',
+				'vakhrushevev'=>['vakhrushevev', 'vakhrusheveff',],
 				'valor\'s'=>'valour\'s',
 				'valor'=>'valour',
 				'valorization\'s'=>'valorisation\'s',
@@ -129,6 +140,8 @@
 				'vapors'=>'vapours',
 				'vaporware'=>'vapourware',
 				'vapory'=>'vapoury',
+				'varennikovov'=>['varennikovov', 'varennikovoff',],
+				'varfolomeyevev'=>['varfolomeyevev', 'varfolomeyeveff',],
 				'varicolored\'s'=>'varicoloured\'s',
 				'varicolored'=>'varicoloured',
 				'varicoloredder'=>'varicolouredder',
@@ -147,6 +160,9 @@
 				'vasectomized'=>'vasectomised',
 				'vasectomizes'=>'vasectomises',
 				'vasectomizing'=>'vasectomising',
+				'vasilyevev'=>['vasilyevev', 'vasilyeveff',],
+				'vasnetsovov'=>['vasnetsovov', 'vasnetsovoff',],
+				'vasnevev'=>['vasnevev', 'vasneveff',],
 				'vassalization'=>'vassalisation',
 				'vassalize'=>'vassalise',
 				'vassalized'=>'vassalised',
@@ -160,6 +176,7 @@
 				'Vaticanizes'=>'Vaticanises',
 				'vavasor'=>'vavasour',
 				'vavasors'=>'vavasours',
+				'vavilovov'=>['vavilovov', 'vavilovoff',],
 				'Ve\'s'=>'Voe\'s',
 				'Ve'=>'Voe',
 				'vectorizable'=>'vectorisable',
@@ -174,6 +191,8 @@
 				'vectorizers'=>'vectorisers',
 				'vectorizes'=>'vectorises',
 				'vectorizing'=>'vectorising',
+				'vedeneyevev'=>['vedeneyevev', 'vedeneyeveff',],
+				'vedernikovov'=>['vedernikovov', 'vedernikovoff',],
 				'veery'=>'verey',
 				'vegetablize'=>'vegetablise',
 				'vegetablizes'=>'vegetablises',
@@ -195,6 +214,7 @@
 				'vendor\'s'=>'vender\'s',
 				'vendor'=>'vender',
 				'vendors'=>'venders',
+				'venediktovov'=>['venediktovov', 'venediktovoff',],
 				'venomization\'s'=>'venomisation\'s',
 				'venomization'=>'venomisation',
 				'venomizations'=>'venomisations',
@@ -253,6 +273,7 @@
 				'verticalized'=>'verticalised',
 				'verticalizes'=>'verticalises',
 				'verticalizing'=>'verticalising',
+				'veselovov'=>['veselovov', 'veselovoff',],
 				'vesicule'=>'vesiculae',
 				'vestryize'=>'vestryise',
 				'vestryizes'=>'vestryises',
@@ -260,6 +281,7 @@
 				'veter'=>'vetoer',
 				'veteranize'=>'veteranise',
 				'veteranizes'=>'veteranises',
+				'vetrovov'=>['vetrovov', 'vetrovoff',],
 				'vialed'=>'vialled',
 				'vialing'=>'vialling',
 				'victimizable\'s'=>'victimisable\'s',
@@ -302,8 +324,11 @@
 				'vigor'=>'vigour',
 				'vigorless'=>'vigourless',
 				'vigors'=>'vigours',
+				'vikhrovov'=>['vikhrovov', 'vikhrovoff',],
 				'villagization'=>'villagisation',
 				'villagizations'=>'villagisations',
+				'vinogradovov'=>['vinogradovov', 'vinogradovoff',],
+				'vinokurovov'=>['vinokurovov', 'vinokurovoff',],
 				'violet-colored'=>'violet-coloured',
 				'viremia'=>'viraemia',
 				'viremias'=>'viraemias',
@@ -395,6 +420,8 @@
 				'vocationalized'=>'vocationalised',
 				'vocationalizes'=>'vocationalises',
 				'vocationalizing'=>'vocationalising',
+				'vodovatovov'=>['vodovatovov', 'vodovatovoff',],
+				'vodyanovov'=>['vodyanovov', 'vodyanovoff',],
 				'volatilizable\'s'=>'volatilisable\'s',
 				'volatilizable'=>'volatilisable',
 				'volatilizabler'=>'volatilisabler',
@@ -416,8 +443,18 @@
 				'volcanized'=>'volcanised',
 				'volcanizes'=>'volcanises',
 				'volcanizing'=>'volcanising',
+				'volikovov'=>['volikovov', 'volikovoff',],
+				'volkovov'=>['volkovov', 'volkovoff',],
+				'volosenkovov'=>['volosenkovov', 'volosenkovoff',],
 				'voltize'=>'voltise',
 				'voltizes'=>'voltises',
+				'volvakovov'=>['volvakovov', 'volvakovoff',],
+				'vorobyovov'=>['vorobyovov', 'vorobyovoff',],
+				'voronkovov'=>['voronkovov', 'voronkovoff',],
+				'voronovov'=>['voronovov', 'voronovoff',],
+				'vorontsovov'=>['vorontsovov', 'vorontsovoff',],
+				'voskoboynikovov'=>['voskoboynikovov', 'voskoboynikovoff',],
+				'votyakovov'=>['votyakovov', 'votyakovoff',],
 				'voweled'=>'vowelled',
 				'voweling'=>'vowelling',
 				'vowelization\'s'=>'vowelisation\'s',
@@ -455,6 +492,7 @@
 				'vulgarizers'=>'vulgarisers',
 				'vulgarizes'=>'vulgarises',
 				'vulgarizing'=>'vulgarising',
+				'vyrypayevev'=>['vyrypayevev', 'vyrypayeveff',],
 			];
 		}
 	}

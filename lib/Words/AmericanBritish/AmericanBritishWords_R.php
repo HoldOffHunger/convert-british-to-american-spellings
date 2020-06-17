@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_R
 					
@@ -82,10 +92,12 @@
 				'radiumizations'=>'radiumisations',
 				'radiumize'=>'radiumise',
 				'radiumizes'=>'radiumises',
+				'rafikovov'=>['rafikovov', 'rafikovoff',],
 				'rainbow-colored'=>'rainbow-coloured',
 				'rajah\'s'=>'raja\'s',
 				'rajah'=>'raja',
 				'rajahes'=>'rajas',
+				'ramazanovov'=>['ramazanovov', 'ramazanovoff',],
 				'Rame\'s'=>'Ramae\'s',
 				'Rame'=>'Ramae',
 				'ramekin\'s'=>'ramequin\'s',
@@ -116,12 +128,16 @@
 				'rapturizing'=>'rapturising',
 				'rascalize'=>'rascalise',
 				'rascalizes'=>'rascalises',
+				'raskalovov'=>['raskalovov', 'raskalovoff',],
+				'raspopovov'=>['raspopovov', 'raspopovoff',],
+				'rasskazovov'=>['rasskazovov', 'rasskazovoff',],
 				'rasterize'=>'rasterise',
 				'rasterized'=>'rasterised',
 				'rasterizer'=>'rasteriser',
 				'rasterizers'=>'rasterisers',
 				'rasterizes'=>'rasterises',
 				'rasterizing'=>'rasterising',
+				'rastorguyevev'=>['rastorguyevev', 'rastorguyeveff',],
 				'ratabilities'=>'rateabilities',
 				'ratability'=>'rateability',
 				'ratable'=>'rateable',
@@ -151,6 +167,8 @@
 				'raveling\'s'=>'ravelling\'s',
 				'raveling'=>'ravelling',
 				'ravelings'=>'ravellings',
+				'ravenovov'=>['ravenovov', 'ravenovoff',],
+				'razuvayevev'=>['razuvayevev', 'razuvayeveff',],
 				'reacclimatization\'s'=>'reacclimatisation\'s',
 				'reacclimatization'=>'reacclimatisation',
 				'reacclimatizations'=>'reacclimatisations',
@@ -616,6 +634,7 @@
 				'remineralized'=>'remineralised',
 				'remineralizes'=>'remineralises',
 				'remineralizing'=>'remineralising',
+				'remizovov'=>['remizovov', 'remizovoff',],
 				'remobilization\'s'=>'remobilisation\'s',
 				'remobilization'=>'remobilisation',
 				'remobilizations'=>'remobilisations',
@@ -744,6 +763,8 @@
 				'resepulcher'=>'resepulchre',
 				'resepulchers'=>'resepulchres',
 				'reshes'=>'reshoes',
+				'reshetilovov'=>['reshetilovov', 'reshetilovoff',],
+				'reshetnikovov'=>['reshetnikovov', 'reshetnikovoff',],
 				'resignaled'=>'resignalled',
 				'resignaling'=>'resignalling',
 				'resinize'=>'resinise',
@@ -859,6 +880,7 @@
 				'revolutionizing'=>'revolutionising',
 				'Rexford\'s'=>'Rexfourd\'s',
 				'Rexford'=>'Rexfourd',
+				'reznikovov'=>['reznikovov', 'reznikovoff',],
 				'rhaphe'=>'rhaphae',
 				'rhapsodization'=>'rhapsodisation',
 				'rhapsodize'=>'rhapsodise',
@@ -963,6 +985,8 @@
 				'roentgenizes'=>'roentgenises',
 				'roentgenizing'=>'roentgenising',
 				'roer'=>'rore',
+				'rogachyovov'=>['rogachyovov', 'rogachyovoff',],
+				'rogovov'=>['rogovov', 'rogovoff',],
 				'Romania\'s'=>'Roumania\'s',
 				'Romania'=>'Roumania',
 				'Romanians'=>'Roumanians',
@@ -982,6 +1006,7 @@
 				'Romanizes'=>'Romanises',
 				'romanizing'=>'romanising',
 				'Romanizing'=>'Romanising',
+				'romanovov'=>['romanovov', 'romanovoff',],
 				'romanticization\'s'=>'romanticisation\'s',
 				'romanticization'=>'romanticisation',
 				'romanticizations'=>'romanticisations',
@@ -994,6 +1019,7 @@
 				'rope-molding'=>'rope-moulding',
 				'ropy'=>'ropey',
 				'rose-colored'=>'rose-coloured',
+				'rostovov'=>['rostovov', 'rostovoff',],
 				'roughhew'=>'rough-hew',
 				'roughhewed'=>'rough-hewed',
 				'roughhewn'=>'rough-hewn',
@@ -1015,6 +1041,8 @@
 				'royalized'=>'royalised',
 				'royalizes'=>'royalises',
 				'royalizing'=>'royalising',
+				'rozanovov'=>['rozanovov', 'rozanovoff',],
+				'rozhkovov'=>['rozhkovov', 'rozhkovoff',],
 				'rubberization'=>'rubberisation',
 				'rubberize'=>'rubberise',
 				'rubberized'=>'rubberised',
@@ -1025,6 +1053,8 @@
 				'rubles'=>'roubles',
 				'rubricize'=>'rubricise',
 				'rubricizes'=>'rubricises',
+				'rudnikovov'=>['rudnikovov', 'rudnikovoff',],
+				'rudovov'=>['rudovov', 'rudovoff',],
 				'ruffianize'=>'ruffianise',
 				'ruffianizes'=>'ruffianises',
 				'ruggedization\'s'=>'ruggedisation\'s',
@@ -1047,8 +1077,10 @@
 				'rumormongering'=>'rumour-mongering',
 				'rumormongers'=>['rumourmongers', 'rumour-mongers',],
 				'rumors'=>'rumours',
+				'rumyantsevev'=>['rumyantsevev', 'rumyantseveff',],
 				'runaround'=>'run-around',
 				'runarounds'=>'run-arounds',
+				'runovov'=>['runovov', 'runovoff',],
 				'ruralization\'s'=>'ruralisation\'s',
 				'ruralization'=>'ruralisation',
 				'ruralizations'=>'ruralisations',
@@ -1056,6 +1088,8 @@
 				'ruralized'=>'ruralised',
 				'ruralizes'=>'ruralises',
 				'ruralizing'=>'ruralising',
+				'rusakovov'=>['rusakovov', 'rusakovoff',],
+				'rusanovov'=>['rusanovov', 'rusanovoff',],
 				'Russianization\'s'=>'Russianisation\'s',
 				'russianization'=>'russianisation',
 				'Russianization'=>'Russianisation',
@@ -1069,6 +1103,17 @@
 				'rusticized'=>'rusticised',
 				'rusticizes'=>'rusticises',
 				'rusticizing'=>'rusticising',
+				'ryabkovov'=>['ryabkovov', 'ryabkovoff',],
+				'ryabovov'=>['ryabovov', 'ryabovoff',],
+				'ryabtsevev'=>['ryabtsevev', 'ryabtseveff',],
+				'rybakovov'=>['rybakovov', 'rybakovoff',],
+				'rychenkovov'=>['rychenkovov', 'rychenkovoff',],
+				'rykovov'=>['rykovov', 'rykovoff',],
+				'ryurikovov'=>['ryurikovov', 'ryurikovoff',],
+				'ryzhanovov'=>['ryzhanovov', 'ryzhanovoff',],
+				'ryzhikovov'=>['ryzhikovov', 'ryzhikovoff',],
+				'ryzhkovov'=>['ryzhkovov', 'ryzhkovoff',],
+				'ryzhovov'=>['ryzhovov', 'ryzhovoff',],
 			];
 		}
 	}

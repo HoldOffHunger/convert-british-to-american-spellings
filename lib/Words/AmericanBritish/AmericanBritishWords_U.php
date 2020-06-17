@@ -5,6 +5,16 @@
 			中文汉字漢字
 		
 		*/
+		
+						/*
+						
+							This file is from the HoldOffHunger/convert-british-to-american-spellings open-source project.
+							
+							Author: HoldOffHunger
+							License: BSD 3-Clause
+							URL: https://github.com/HoldOffHunger/convert-british-to-american-spellings
+						
+						*/
 				
 				/* AmericanBritishWords_U
 					
@@ -33,9 +43,14 @@
 
 		public function AmericanBritishWords() {
 			return [
+				'uglovov'=>['uglovov', 'uglovoff',],
+				'ugolevev'=>['ugolevev', 'ugoleveff',],
+				'ugolnikovov'=>['ugolnikovov', 'ugolnikovoff',],
+				'ukhovov'=>['ukhovov', 'ukhovoff',],
 				'ukulele\'s'=>'ukelele\'s',
 				'ukulele'=>'ukelele',
 				'ukuleles'=>'ukeleles',
+				'ulanovov'=>['ulanovov', 'ulanovoff',],
 				'ultracentralizer\'s'=>'ultracentraliser\'s',
 				'ultracentralizer'=>'ultracentraliser',
 				'ultracentralizers'=>'ultracentralisers',
@@ -48,6 +63,8 @@
 				'ultrastandardization\'s'=>'ultrastandardisation\'s',
 				'ultrastandardization'=>'ultrastandardisation',
 				'ultrastandardizations'=>'ultrastandardisations',
+				'ulyanovov'=>['ulyanovov', 'ulyanovoff',],
+				'umanovov'=>['umanovov', 'umanovoff',],
 				'unacclimatized'=>'unacclimatised',
 				'unagonize'=>'unagonise',
 				'unalcoholized\'s'=>'unalcoholised\'s',
@@ -1158,6 +1175,7 @@
 				'untheorizable'=>'untheorisable',
 				'untheorizables'=>'untheorisables',
 				'untheorized'=>'untheorised',
+				'untilovov'=>['untilovov', 'untilovoff',],
 				'untrameling'=>'untrammelling',
 				'untrammeled'=>'untrammelled',
 				'untrammeledder'=>'untrammelledder',
@@ -1215,6 +1233,7 @@
 				'updraft'=>'updraught',
 				'updrafts'=>'updraughts',
 				'upmarket'=>'up-market',
+				'urakovov'=>['urakovov', 'urakovoff',],
 				'uralitization'=>'uralitisation',
 				'uralitizations'=>'uralitisations',
 				'uralitize'=>'uralitise',
@@ -1241,10 +1260,17 @@
 				'urinemic'=>'urinaemic',
 				'urohematin'=>'urohaematin',
 				'urophein'=>'urophaein',
+				'urusovov'=>['urusovov', 'urusovoff',],
 				'usability\'s'=>'useability\'s',
 				'usability'=>'useability',
 				'usable'=>'useable',
 				'usably'=>'useably',
+				'usachyovov'=>['usachyovov', 'usachyovoff',],
+				'usatovov'=>['usatovov', 'usatovoff',],
+				'ushakovov'=>['ushakovov', 'ushakovoff',],
+				'usilovov'=>['usilovov', 'usilovoff',],
+				'usovov'=>['usovov', 'usovoff',],
+				'ustinovov'=>['ustinovov', 'ustinovoff',],
 				'utilitarianize'=>'utilitarianise',
 				'utilitarianized'=>'utilitarianised',
 				'utilitarianizes'=>'utilitarianises',
@@ -1274,6 +1300,8 @@
 				'utopianizes'=>'utopianises',
 				'Utopianizes'=>'Utopianises',
 				'utopianizing'=>'utopianising',
+				'utyosovov'=>['utyosovov', 'utyosovoff',],
+				'uvarovov'=>['uvarovov', 'uvarovoff',],
 			];
 		}
 	}
