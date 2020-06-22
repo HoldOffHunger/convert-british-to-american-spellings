@@ -54,6 +54,10 @@
 			*/
 
 		public function GetAmericanToBritishSpellings() {
+			if($this->american_to_british_spellings) {
+				return $this->american_to_british_spellings;
+			}
+			
 			$word_hash = [];
 			
 			$word_directory = __DIR__ . '/Words/AmericanBritish/';
@@ -70,6 +74,8 @@
 				
 				$word_hash = array_merge($word_hash, $words);
 			}
+			
+			$this->american_to_british_spellings = $words_hash;
 			
 			return $word_hash;
 		}
