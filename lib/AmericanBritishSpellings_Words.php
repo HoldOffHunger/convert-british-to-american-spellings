@@ -56,7 +56,7 @@
 		public function GetAmericanToBritishSpellings() {
 			$word_hash = [];
 			
-			$word_directory = __DIR__ . '/classes/Language/Words/AmericanBritish/';
+			$word_directory = __DIR__ . '/Words/AmericanBritish/';
 			
 			foreach(range('A', 'Z') as $letter) {
 				$word_class = 'AmericanBritishWords_' . $letter;
