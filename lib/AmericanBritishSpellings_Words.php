@@ -67,7 +67,7 @@
 				$word_file = $word_class . '.php';
 				$word_file_location = $word_directory . $word_file;
 				
-				require($word_file_location);
+				require_once($word_file_location);
 				$word_object = new $word_class([]);
 				
 				$words = $word_object->AmericanBritishWords();
