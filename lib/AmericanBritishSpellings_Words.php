@@ -7,6 +7,10 @@
 				*/
 
 	class AmericanBritishSpellings_Words {
+
+		protected $british_to_american_spellings;
+		protected $american_to_british_spellings;
+
 			/* __construct($args)
 			
 				Constructor.
@@ -75,7 +79,7 @@
 				$word_hash = array_merge($word_hash, $words);
 			}
 			
-			$this->american_to_british_spellings = $words_hash;
+			$this->american_to_british_spellings = $word_hash;
 			
 			return $word_hash;
 		}
