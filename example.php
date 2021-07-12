@@ -1,4 +1,7 @@
 <?php
+/*
+ * A simple example of how to use this library
+ */
 include(__DIR__ . '/src/AmericanBritishSpellings.php');
 header('Content-Type: text/html');
 echo '<!doctype html><html><head></head><body>';
