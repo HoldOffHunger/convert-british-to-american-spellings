@@ -1,30 +1,30 @@
 <?php
-require_once('Words/AmericanBritish/AmericanBritishWords_A.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_B.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_C.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_D.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_E.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_F.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_G.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_H.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_I.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_J.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_K.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_L.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_M.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_N.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_O.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_P.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_Q.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_R.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_S.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_T.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_U.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_V.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_W.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_X.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_Y.php');
-require_once('Words/AmericanBritish/AmericanBritishWords_Z.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_A.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_B.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_C.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_D.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_E.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_F.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_G.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_H.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_I.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_J.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_K.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_L.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_M.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_N.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_O.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_P.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Q.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_R.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_S.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_T.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_U.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_V.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_W.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_X.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Y.php');
+require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Z.php');
 
 /**
  * AmericanBritishSpellings_Words
@@ -48,22 +48,20 @@ class AmericanBritishSpellings_Words
      */
     public function getBritishToAmericanSpellings(): array
     {
-        if (self::$british_to_american_spellings) {
-            return self::$british_to_american_spellings;
-        }
+        if (!self::$british_to_american_spellings) {
+            $spellingAlternatives = $this->getAmericanToBritishSpellings();
+            $britishToAmericanSpellings = [];
 
-        $spellingAlternatives = $this->getAmericanToBritishSpellings();
-        $britishToAmericanSpellings = [];
-
-        foreach ($spellingAlternatives as $americanSpelling => $britishSpelling) {
-            $britishSpelling = (array)$britishSpelling;
-            foreach ($britishSpelling as $britSpelling) {
-                $britishToAmericanSpellings[$britSpelling] = $americanSpelling;
+            foreach ($spellingAlternatives as $americanSpelling => $britishSpelling) {
+                $britishSpelling = (array)$britishSpelling;
+                foreach ($britishSpelling as $britSpelling) {
+                    $britishToAmericanSpellings[$britSpelling] = $americanSpelling;
+                }
             }
+
+            self::$british_to_american_spellings = $britishToAmericanSpellings;
         }
-
-        self::$british_to_american_spellings = $britishToAmericanSpellings;
-
+        
         return self::$british_to_american_spellings;
     }
 
@@ -74,20 +72,16 @@ class AmericanBritishSpellings_Words
      */
     public function getAmericanToBritishSpellings(): array
     {
-        if (self::$american_to_british_spellings) {
-            return self::$american_to_british_spellings;
+        if (!self::$american_to_british_spellings) {
+            $wordHash = [];
+
+            foreach (range('A', 'Z') as $letter) {
+                $words = $this->getForLetter($letter);
+                $wordHash = array_merge($wordHash, $words);
+            }
+
+            self::$american_to_british_spellings = $wordHash;
         }
-
-        $wordHash = [];
-
-        foreach (range('A', 'Z') as $letter) {
-            $wordClass = sprintf('AmericanBritishWords_%s', $letter);
-            $words = $wordClass::$american_british_words;
-
-            $wordHash = array_merge($wordHash, $words);
-        }
-
-        self::$american_to_british_spellings = $wordHash;
 
         return self::$american_to_british_spellings;
     }
@@ -100,16 +94,19 @@ class AmericanBritishSpellings_Words
      */
     public function getBritishSpellingsForLetter(string $letter): array
     {
-        $values = array_values($this->getForLetter($letter));
+        $words = array_values($this->getForLetter($letter));
         $result = [];
-        foreach ($values as $value) {
-            $result = array_merge($result, (array)$value);
+        foreach ($words as $word) {
+            // If the value is an array, it merges, if it isn't, casting it to array will make it merge.
+            $result = array_merge($result, (array)$word);
         }
 
-        $result = array_unique($result);
-        sort($result);
+        // No need for duplicates
+        $values = array_unique($result);
+        // Sort ABCabc
+        sort($values);
 
-        return $result;
+        return $values;
     }
 
     /**
@@ -122,12 +119,19 @@ class AmericanBritishSpellings_Words
     {
         $words = array_keys($this->getForLetter($letter));
 
+        // No need for duplicates
         $values = array_unique($words);
+        // Sort ABCabc
         sort($values);
 
         return $values;
     }
 
+    /**
+     * Get the amount of American to British words for a specific first letter.
+     * @param $letter
+     * @return int|void
+     */
     public function getCountForLetter($letter)
     {
         return count($this->getForLetter($letter));

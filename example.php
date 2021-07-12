@@ -1,5 +1,5 @@
 <?php
-include('src/AmericanBritishSpellings.php');
+include(__DIR__ . '/src/AmericanBritishSpellings.php');
 header('Content-Type: text/html');
 echo '<!doctype html><html><head></head><body>';
 $american_british_spellings = new AmericanBritishSpellings();
@@ -43,5 +43,3 @@ echo $american_british_spellings->swapBritishSpellingsForAmericanSpellings(['tex
 echo '</p>';
 
 echo '</body></html>';
-//print_r($american_british_spellings->getWords()->getBritishSpellingsForLetter('A'));
-//print_r($american_british_spellings->getWords()->getAmericanSpellingsForLetter('A'));
