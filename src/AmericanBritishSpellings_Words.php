@@ -32,15 +32,21 @@ require_once('Words/AmericanBritish/AmericanBritishWords_Z.php');
  */
 class AmericanBritishSpellings_Words
 {
-
+    /**
+     * @var array
+     */
     protected static $british_to_american_spellings;
+    /**
+     * @var array
+     */
     protected static $american_to_british_spellings;
 
     /**
      * GetBritishToAmericanSpellings()
      * Build a mapping of British to American spellings.
+     * @return array
      */
-    public function getBritishToAmericanSpellings()
+    public function getBritishToAmericanSpellings(): array
     {
         if (self::$british_to_american_spellings) {
             return self::$british_to_american_spellings;
@@ -72,16 +78,16 @@ class AmericanBritishSpellings_Words
             return self::$american_to_british_spellings;
         }
 
-        $word_hash = [];
+        $wordHash = [];
 
         foreach (range('A', 'Z') as $letter) {
-            $word_class = 'AmericanBritishWords_' . $letter;
-            $words = $word_class::$american_british_words;
+            $wordClass = sprintf('AmericanBritishWords_%s', $letter);
+            $words = $wordClass::$american_british_words;
 
-            $word_hash = array_merge($word_hash, $words);
+            $wordHash = array_merge($wordHash, $words);
         }
 
-        self::$american_to_british_spellings = $word_hash;
+        self::$american_to_british_spellings = $wordHash;
 
         return self::$american_to_british_spellings;
     }

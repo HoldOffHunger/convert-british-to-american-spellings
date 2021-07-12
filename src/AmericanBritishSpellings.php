@@ -52,21 +52,21 @@ class AmericanBritishSpellings
 
         $replacements = $this->buildSpellingReplacements();
 
-        $american_spellings = $replacements['american'];
-        $british_spellings = $replacements['british'];
+        $american = $replacements['american'];
+        $british = $replacements['british'];
 
         $alternates = $this->buildSpellingAlternates([
             'language' => $language,
-            'american' => $american_spellings,
-            'british'  => $british_spellings,
+            'american' => $american,
+            'british'  => $british,
         ]);
 
-        $american_spellings = $alternates['american'];
-        $british_spellings = $alternates['british'];
+        $american = $alternates['american'];
+        $british = $alternates['british'];
 
         return [
-            'american' => $american_spellings,
-            'british'  => $british_spellings,
+            'american' => $american,
+            'british'  => $british,
         ];
     }
 

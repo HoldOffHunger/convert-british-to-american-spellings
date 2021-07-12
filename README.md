@@ -166,7 +166,7 @@ _How do I convert American-spelling text to British-spelling text?_
 
 ~~~~
 require('AmericanBritishSpellings.php');
-$american_british_spellings = new AmericanBritishSpellings([]);
+$american_british_spellings = new AmericanBritishSpellings();
 
 $text = "Axiomatically axe that door, would you, my neighbor?";     // American input text source
 
