@@ -1,0 +1,34 @@
+{
+    "name": "holdoffhunger/americanbritish",
+    "description": "Switcher for American and British spelling of words",
+    "type": "vendor",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "Language",
+        "Spelling",
+        "British",
+        "American",
+        "Words",
+        "Synonyms"
+    ],
+    "authors": [
+        {
+            "name": "Hold Off Hunger",
+            "role": "Lead developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev",
+            "1.0": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

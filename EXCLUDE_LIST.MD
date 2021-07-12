@@ -2,7 +2,9 @@
 
 ## What is the Exclude List?
 
-The exclude list are words that have been excluded from conversion because they are corruptible.  Specifically, they are words which have different meanings in American/British spellings, and therefore swapping them would cause a loss of meaning.
+The exclude list are words that have been excluded from conversion because they are corruptible. Specifically, they are
+words which have different meanings in American/British spellings, and therefore swapping them would cause a loss of
+meaning.
 
 ## Excluded Words
 

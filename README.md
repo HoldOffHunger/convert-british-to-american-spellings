@@ -29,7 +29,8 @@ _Check out the code in an online demo..._
 
 ### Editable, Online Sandbox Demo (at IDEone.com)
 
-Note: Since there are text limits to online compilers, we reduced the actual list of words covered to make this demo run.
+Note: Since there are text limits to online compilers, we reduced the actual list of words covered to make this demo
+run.
 
 * [2020 IDEOne Demo: British/American Spelling Converter](https://ideone.com/e0Re7W)
 * [2019 IDEOne Demo: British/American Spelling Converter](https://ideone.com/YoWZ9y)
@@ -50,14 +51,42 @@ _How many words are covered?_
         * BtA List: Alternative Latinized spellings of Russian and French names: (~1,500 words).
         * BtA List: Alternative dashed-form words ("hundredfold" versus "hundred-fold"): (~2,000 words).
     * These lists were used to cross-check each other, correct errors, and remove duplicates.
-    * Letter-sorted lists for easily updating and checking on words: [A](./lib/Words/AmericanBritish/AmericanBritishWords_A.php) (1314 words), [B](./lib/Words/AmericanBritish/AmericanBritishWords_B.php) (687 words), [C](./lib/Words/AmericanBritishWords_C.php) (1,807 words), [D](./lib/Words/AmericanBritish/AmericanBritishWords_D.php) (1,427 words), [E](./lib/Words/AmericanBritish/AmericanBritishWords_E.php) (948 words), [F](./lib/Words/AmericanBritish/AmericanBritishWords_F.php) (678 words), [G](./lib/Words/AmericanBritish/AmericanBritishWords_G.php) (654 words), [H](./lib/Words/AmericanBritish/AmericanBritishWords_H.php) (1,066 words), [I](./lib/Words/AmericanBritish/AmericanBritishWords_I.php) (590 words), [J](./lib/Words/AmericanBritish/AmericanBritishWords_J.php) (149 words), [K](./lib/Words/AmericanBritish/AmericanBritishWords_K.php) (264 words), [L](./lib/Words/AmericanBritish/AmericanBritishWords_L.php) (641 words), [M](./lib/Words/AmericanBritish/AmericanBritishWords_M.php) (1,312 words), [N](./lib/Words/AmericanBritish/AmericanBritishWords_N.php) (716 words), [O](./lib/Words/AmericanBritish/AmericanBritishWords_O.php) (532 words), [P](./lib/Words/AmericanBritish/AmericanBritishWords_P.php) (2,273 words), [Q](./lib/Words/AmericanBritish/AmericanBritishWords_Q.php) (57 words), [R](./lib/Words/AmericanBritish/AmericanBritishWords_R.php) (1,071 words), [S](./lib/Words/AmericanBritish/AmericanBritishWords_S.php) (2,024 words), [T](./lib/Words/AmericanBritish/AmericanBritishWords_T.php) (800 words), [U](./lib/Words/AmericanBritish/AmericanBritishWords_U.php) (1,259 words), [V](./lib/Words/AmericanBritish/AmericanBritishWords_V.php) (450 words), [W](./lib/Words/AmericanBritish/AmericanBritishWords_W.php) (177 words), [X](./lib/Words/AmericanBritish/AmericanBritishWords_X.php) (0 words), [Y](./lib/Words/AmericanBritish/AmericanBritishWords_Y.php) (75 words), [z](./lib/Words/AmericanBritish/AmericanBritishWords_Z.php) (63 words).
+    * Letter-sorted lists for easily updating and checking on
+      words: [A](src/Words/AmericanBritish/AmericanBritishWords_A.php) (1314 words)
+      , [B](src/Words/AmericanBritish/AmericanBritishWords_B.php) (687 words)
+      , [C](src/Words/AmericanBritishWords_C.php) (1,807 words)
+      , [D](src/Words/AmericanBritish/AmericanBritishWords_D.php) (1,427 words)
+      , [E](src/Words/AmericanBritish/AmericanBritishWords_E.php) (948 words)
+      , [F](src/Words/AmericanBritish/AmericanBritishWords_F.php) (678 words)
+      , [G](src/Words/AmericanBritish/AmericanBritishWords_G.php) (654 words)
+      , [H](src/Words/AmericanBritish/AmericanBritishWords_H.php) (1,066 words)
+      , [I](src/Words/AmericanBritish/AmericanBritishWords_I.php) (590 words)
+      , [J](src/Words/AmericanBritish/AmericanBritishWords_J.php) (149 words)
+      , [K](src/Words/AmericanBritish/AmericanBritishWords_K.php) (264 words)
+      , [L](src/Words/AmericanBritish/AmericanBritishWords_L.php) (641 words)
+      , [M](src/Words/AmericanBritish/AmericanBritishWords_M.php) (1,312 words)
+      , [N](src/Words/AmericanBritish/AmericanBritishWords_N.php) (716 words)
+      , [O](src/Words/AmericanBritish/AmericanBritishWords_O.php) (532 words)
+      , [P](src/Words/AmericanBritish/AmericanBritishWords_P.php) (2,273 words)
+      , [Q](src/Words/AmericanBritish/AmericanBritishWords_Q.php) (57 words)
+      , [R](src/Words/AmericanBritish/AmericanBritishWords_R.php) (1,071 words)
+      , [S](src/Words/AmericanBritish/AmericanBritishWords_S.php) (2,024 words)
+      , [T](src/Words/AmericanBritish/AmericanBritishWords_T.php) (800 words)
+      , [U](src/Words/AmericanBritish/AmericanBritishWords_U.php) (1,259 words)
+      , [V](src/Words/AmericanBritish/AmericanBritishWords_V.php) (450 words)
+      , [W](src/Words/AmericanBritish/AmericanBritishWords_W.php) (177 words)
+      , [X](src/Words/AmericanBritish/AmericanBritishWords_X.php) (0 words)
+      , [Y](src/Words/AmericanBritish/AmericanBritishWords_Y.php) (75 words)
+      , [Z](src/Words/AmericanBritish/AmericanBritishWords_Z.php) (63 words).
 * Variants for British words.
     * For example, "unrealisable" and "unrealiseable".
 * Words are defined with simple associative array, making for a quick transfer to Perl, C++, Java, etc..
-    * For example, the syntax of `somekey=>"somevalue"` is widely-used throughout many languages, or easily converted to their versions of this syntax.
+    * For example, the syntax of `somekey=>"somevalue"` is widely-used throughout many languages, or easily converted to
+      their versions of this syntax.
 * Permissively-licensed
     * Do whatever you want with the code!
-    * For example, see what others are doing with their personal, commercial, and legal rights as endowed by BSD-3-clause-licensed software.
+    * For example, see what others are doing with their personal, commercial, and legal rights as endowed by
+      BSD-3-clause-licensed software.
 
 ## Functionality
 
@@ -66,37 +95,49 @@ _How many words are covered?_
 _How in general does it work?_
 
 * **Exact / Error-Resistant**
-    * British/American Spelling Converter uses regular expression checking with `/\b$word\b/`, so this makes it impossible to corrupt words.
-    * For example, "Ax" becomes "Axe", but "Axiomatic" will remain as "Axiomatic", and cannot become "Axeiomatic", which would be incorrect.
+    * British/American Spelling Converter uses regular expression checking with `/\b$word\b/`, so this makes it
+      impossible to corrupt words.
+    * For example, "Ax" becomes "Axe", but "Axiomatic" will remain as "Axiomatic", and cannot become "Axeiomatic", which
+      would be incorrect.
 * **Fast / Efficient**
     * Every mass-replace is done within a single `preg_replace()` call, using arrays as arguments
     * This means that the script will finish much sooner.
 * **Reliable / Atomic / Deterministic**
     * American-ize/British-ify will not corrupt meaning.
-    * For example, 'discus' and 'diskus' have reverse meanings in US/UK, swapping them in or out will cause the text to change each time you "Americanize" or "Britishify" it.  So, we don't do these types of swaps.
+    * For example, 'discus' and 'diskus' have reverse meanings in US/UK, swapping them in or out will cause the text to
+      change each time you "Americanize" or "Britishify" it. So, we don't do these types of swaps.
 
 ### Precise Behavior - Use Cases
 
 _How exactly does it work?_
 
 * Only all lower case, all upper case, or first letter capitalized versions are converted.
-    * Example: American=>English, "axe"=>"ax", "AXE" would be converted to "AX" or vice versa, but "AxE would not be converted to Ax".
+    * Example: American=>English, "axe"=>"ax", "AXE" would be converted to "AX" or vice versa, but "AxE would not be
+      converted to Ax".
 * Apostrophes are treated as word boundaries.
     * Example: American=>English, "axe"=>"ax", "the ax's handle" would be converted to "the axe's handle."
 * Only precisely whole, known words are converted.
-    * Example: American=>English, "axe"=>"ax", this will not convert "axed" to axd", because the "-d" concluding character indicates that it is an entirely different word.
+    * Example: American=>English, "axe"=>"ax", this will not convert "axed" to axd", because the "-d" concluding
+      character indicates that it is an entirely different word.
 * Dashes are treated as word boundaries only when not preceded and followed by a dash.
-    * Example: American=>English, "affecteffect=>affect-effect", this will convert "the affect-effect of it" to "the affecteffect of it", but it will not convert "these every-night-affect-effect-happenings are" to "these every-every-night-affecteffect-happenings are", as the dash here implies new meaning than when solely alone.
+    * Example: American=>English, "affecteffect=>affect-effect", this will convert "the affect-effect of it" to "the
+      affecteffect of it", but it will not convert "these every-night-affect-effect-happenings are" to "these
+      every-every-night-affecteffect-happenings are", as the dash here implies new meaning than when solely alone.
 * British alternates are handled.
-    * Example: American=>English, "amoebas"=>["amoebae", "amebas", "amebae",], if converting to English, "amoebas" will be replaced with "amoebae", the most contemporary term, and if converting to American, "amoebae", "amebas", etc., will all be converted to the single, American equivalent.
-    
+    * Example: American=>English, "amoebas"=>["amoebae", "amebas", "amebae",], if converting to English, "amoebas" will
+      be replaced with "amoebae", the most contemporary term, and if converting to American, "amoebae", "amebas", etc.,
+      will all be converted to the single, American equivalent.
+
 _Some test sentences..._
 
-The neighbour walked to the theatre's centre, manoeuvred about the sabre, and proceeded to reconnoitre the sepulchre in ochre.
+The neighbour walked to the theatre's centre, manoeuvred about the sabre, and proceeded to reconnoitre the sepulchre in
+ochre.
 
-The rumour spread that splendour and flavour were affected by our behaviour, so walk a metre in my mitre while carrying a litre of nitre.
+The rumour spread that splendour and flavour were affected by our behaviour, so walk a metre in my mitre while carrying
+a litre of nitre.
 
-The connexion with industrialisation remains with the municipalisation of the calibre of the fibre of the spectre, not with the meagre and sombre saltpetre with all its colour and honour.
+The connexion with industrialisation remains with the municipalisation of the calibre of the fibre of the spectre, not
+with the meagre and sombre saltpetre with all its colour and honour.
 
 <img src="./image/spelling-converter-02.jpg" width="600">
 
@@ -162,7 +203,7 @@ _What are the functions in the sourcecode files for?_
 
 _Class for converting text from US/UK spellings to US/UK spellings._
 
-*  __construct($args)
+* __construct($args)
     * Constructor.
     * Load the words into the converter class for ready use.
 * SwapBritishSpellingsForAmericanSpellings($args)
@@ -174,7 +215,8 @@ _Class for converting text from US/UK spellings to US/UK spellings._
 * BuildSpellingAlternates($args)
     * Building spelling alternatives for British and American dialects.
 * BuildSpellingAlternatesForLanguage($args)
-    * Building spelling alternates for a single particular dialect of a language (either British or American, in our case).
+    * Building spelling alternates for a single particular dialect of a language (either British or American, in our
+      case).
 * BuildSearchRegex($args)
     * Build an array of search regexes when given an array of search terms.
 * BuildSearchRegex($args)

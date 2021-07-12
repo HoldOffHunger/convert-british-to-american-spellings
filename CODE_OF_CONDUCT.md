@@ -4,7 +4,7 @@ Version 1.0, May 22, 2018, by HoldOffHunger
 
 ## Introduction
 
-Everyone expects a standard of behavior.  And everyone will react to the behavior of others.
+Everyone expects a standard of behavior. And everyone will react to the behavior of others.
 
 This is always true -- whether or not people are working together under a common agreement.
 
@@ -72,7 +72,8 @@ But by having an agreement, at least discussion should be easier.
 
 * An employer or potential employer,
 * A government, an agency empowered by the government, or an agent or police officer empowered by the government.
-* Any censuring organization, such as religious, social, cultural, economic, or political institutions, such as family, friends, churches, newspapers, publishers, radio stations, etc..
+* Any censuring organization, such as religious, social, cultural, economic, or political institutions, such as family,
+  friends, churches, newspapers, publishers, radio stations, etc..
 * Any third party without their direct consent.
 
 ### Authoritarianism, or the spread of behavior that is designed to overturn the standards described so far, such as attempts to advance, support, or aid any of the following :
@@ -91,7 +92,9 @@ But by having an agreement, at least discussion should be easier.
 
 ## What is Unaccountable
 
-* We are one community organization.  If your complaint is severe enough, you may need to elevate it beyond what this agreement provides for.  You are authorized and encouraged to this if you don't think your complaint can be met with satisfaction.
+* We are one community organization. If your complaint is severe enough, you may need to elevate it beyond what this
+  agreement provides for. You are authorized and encouraged to this if you don't think your complaint can be met with
+  satisfaction.
 
 ### You may not cite this document as reason, when :
 
@@ -101,7 +104,8 @@ But by having an agreement, at least discussion should be easier.
 
 ## How we Enforce Community Standards
 
-* If you witness or experience any violation of this Code of Conduct, you are urged to immediately contact official organizers within the community.
+* If you witness or experience any violation of this Code of Conduct, you are urged to immediately contact official
+  organizers within the community.
 
 ### In response to violations of unacceptable behavior, we may respond to the offender as follows :
 
