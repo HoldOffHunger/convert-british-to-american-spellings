@@ -1,31 +1,8 @@
 <?php
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_A.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_B.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_C.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_D.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_E.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_F.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_G.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_H.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_I.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_J.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_K.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_L.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_M.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_N.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_O.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_P.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Q.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_R.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_S.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_T.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_U.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_V.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_W.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_X.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Y.php');
-require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Z.php');
-
+// Include all letters of the alphabet
+foreach (glob(__DIR__ . "/Words/AmericanBritish/*") as $filename) {
+    require_once($filename);
+}
 /**
  * AmericanBritishSpellings_Words
  * Class for building word lists for converting UK/US english dialects.
@@ -33,16 +10,17 @@ require_once(__DIR__ . '/Words/AmericanBritish/AmericanBritishWords_Z.php');
 class AmericanBritishSpellings_Words
 {
     /**
+     * All British to American English spellings
      * @var array
      */
     protected static $british_to_american_spellings;
     /**
+     * All American to British English spellings
      * @var array
      */
     protected static $american_to_british_spellings;
 
     /**
-     * GetBritishToAmericanSpellings()
      * Build a mapping of British to American spellings.
      * @return array
      */
@@ -61,12 +39,11 @@ class AmericanBritishSpellings_Words
 
             self::$british_to_american_spellings = $britishToAmericanSpellings;
         }
-        
+
         return self::$british_to_american_spellings;
     }
 
     /**
-     * GetAmericanToBritishSpellings()
      * Build a mapping of American to British spellings from the /Language/Words/AmericanBritish/ classes.
      * @return array
      */

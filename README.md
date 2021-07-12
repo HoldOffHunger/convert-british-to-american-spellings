@@ -203,45 +203,36 @@ _What are the functions in the sourcecode files for?_
 
 _Class for converting text from US/UK spellings to US/UK spellings._
 
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* SwapBritishSpellingsForAmericanSpellings($args)
+* swapBritishSpellingsForAmericanSpellings($args)
     * Convert text with British spellings to text with American spellings.
-* SwapAmericanSpellingsForBritishSpellings($args)
+* swapAmericanSpellingsForBritishSpellings($args)
     * Convert text with American spellings to text with British spellings.
-* GetSpellingsAndReplacements($args)
+* getSpellingsAndReplacements($args)
     * Get spellings and replacements based on the desired end language.
-* BuildSpellingAlternates($args)
+* buildSpellingAlternates($args)
     * Building spelling alternatives for British and American dialects.
-* BuildSpellingAlternatesForLanguage($args)
+* buildSpellingAlternatesForLanguage($args)
     * Building spelling alternates for a single particular dialect of a language (either British or American, in our
       case).
-* BuildSearchRegex($args)
+* buildSearchRegex($args)
     * Build an array of search regexes when given an array of search terms.
-* BuildSearchRegex($args)
+* buildSearchRegexForWords($args)
     * Build a single search regex for a single search term.
-* BuildSpellingReplacements()
+* buildSpellingReplacements()
     * Build the replacements to be used for the search terms.
 
 *AmericanBritishSpellings_Words.php*
 
 _Class for building word lists for converting UK/US english dialects._
 
-* __construct($args)
-    * Constructor.
-    * Nothing to do here.
-* GetBritishToAmericanSpellings()
+* getBritishToAmericanSpellings()
     * Build a mapping of British to American spellings.
-* GetAmericanToBritishSpellings()
+* getAmericanToBritishSpellings()
     * Build a mapping of American to British spellings from the /Language/Words/AmericanBritish/ classes.
 
 *AmericanBritishWords_A.php*
 *...*
 *AmericanBritishWords_Z.php*
 
-* __construct($args)
-    * Constructor.
-    * Load the words into the converter class for ready use.
-* AmericanBritishWords()
+* static::$american_british_words
     * List of US/UK spellings for words starting with : A...Z.

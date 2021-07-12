@@ -8,12 +8,12 @@ require(__DIR__ . '/AmericanBritishSpellings_Words.php');
 class AmericanBritishSpellings
 {
     /**
+     * List of all American to British words
      * @var AmericanBritishSpellings_Words
      */
     protected $words;
 
     /**
-     * __construct()
      * Constructor.
      * Load the base word class.
      */
@@ -23,7 +23,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * SwapBritishSpellingsForAmericanSpellings($args)
      * Convert text with British spellings to text with American spellings.
      * @param array $args
      * @return string
@@ -41,7 +40,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * SwapAmericanSpellingsForBritishSpellings($args)
      * Convert text with American spellings to text with British spellings.
      * @param array $args
      * @return array
@@ -71,7 +69,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * GetSpellingsAndReplacements()
      * Get spellings and replacements based on the desired end language.
      * @return array
      */
@@ -106,7 +103,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * BuildSpellingAlternates($args)
      * Building spelling alternatives for British and American dialects.
      * @param array $args
      * @return array
@@ -133,7 +129,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * BuildSpellingAlternatesForLanguage($args)
      * Building spelling alternates for a single particular dialect of a language (either British or American, in our case).
      * @param array $args
      * @return array
@@ -149,7 +144,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * function BuildSearchRegex($args)
      * Build an array of search regexes when given an array of search terms.
      * @param array $args
      * @return array
@@ -162,7 +156,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * function BuildSearchRegex($args)
      * Build a single search regex for a single search term.
      * @param array $args
      * @return string
@@ -180,7 +173,6 @@ class AmericanBritishSpellings
     }
 
     /**
-     * BuildSpellingReplacements()
      * Build the replacements to be used for the search terms.
      * @param string $args
      * @return string
@@ -191,6 +183,7 @@ class AmericanBritishSpellings
     }
 
     /**
+     * Get the words list
      * @return AmericanBritishSpellings_Words
      */
     public function getWords(): AmericanBritishSpellings_Words
@@ -199,6 +192,7 @@ class AmericanBritishSpellings
     }
 
     /**
+     * Set the words list
      * @param AmericanBritishSpellings_Words $words
      */
     public function setWords(AmericanBritishSpellings_Words $words): void
