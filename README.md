@@ -149,7 +149,7 @@ _How do I use the British/American Spelling Converter?_
 
 _How do I convert British-spelling text to American-spelling text?_
 
-~~~~
+```php
 require('AmericanBritishSpellings.php');
 $american_british_spellings = new AmericanBritishSpellings([]);
 
@@ -158,13 +158,13 @@ $text = "Axiomatically ax that door, would you, my neighbour?";     // British i
 $americanized = $american_british_spellings->SwapBritishSpellingsForAmericanSpellings(['text'=>$text]);
 
 print($americanized);   // output: Axiomatically axe that door, would you, my neighbor?
-~~~~
+```
 
 ### Britishize Text Example
 
 _How do I convert American-spelling text to British-spelling text?_
 
-~~~~
+```php
 require('AmericanBritishSpellings.php');
 $american_british_spellings = new AmericanBritishSpellings();
 
@@ -173,7 +173,7 @@ $text = "Axiomatically axe that door, would you, my neighbor?";     // American 
 $britishized = $american_british_spellings->SwapAmericanSpellingsForBritishSpellings(['text'=>$text]);
 
 print($britishized);   // output: Axiomatically ax that door, would you, my neighbour?
-~~~~
+```
 
 ## Code Structure and Design
 
