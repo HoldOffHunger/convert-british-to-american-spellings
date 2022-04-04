@@ -219,7 +219,7 @@
 				'orangs'=>'ourangs',
 				'orangutan\'s'=>'orangutang\'s',
 				'orangutan'=>['orangutan', 'orang-outan', 'orang-utan', 'orangutang',],
-				'orangutans'=>['orangutangs', 'orang-utans', 'orang-utans', 'orangutangs',],
+				'orangutans'=>['orangutangs', 'orang-utans',],
 				'oratorize'=>'oratorise',
 				'oratorizes'=>'oratorises',
 				'orchester'=>'orchestre',
